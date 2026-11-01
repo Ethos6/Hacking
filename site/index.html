@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hacking: a maintained map of security resources</title>
+<meta name="description" content="Security courses, labs, tools, references and curated lists, with weekly health checks so you know what is still maintained.">
+<meta property="og:title" content="Hacking: a maintained map of security resources">
+<meta property="og:description" content="Learn, practice and defend with resources that are still alive. Health-checked weekly.">
+<meta name="theme-color" content="#0b1110">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b1110'/%3E%3Cpath d='M16 4l10 4v8c0 6-4.5 10-10 12C10.5 26 6 22 6 16V8z' fill='none' stroke='%2322c55e' stroke-width='2.5'/%3E%3Cpath d='M11.5 16l3 3 6-6' fill='none' stroke='%2322c55e' stroke-width='2.5' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+:root{--bg:#0b1110;--surface:#121a18;--surface2:#17211e;--text:#e3ebe7;--muted:#93a39c;--line:#24312d;--accent:#22c55e;--accent2:#5eead4;--ink:#04140a;--focus:#5eead4;
+  --active:#22c55e;--maintained:#60a5fa;--slow:#eab308;--stale:#ef4444;--archived:#71717a;color-scheme:dark}
+@media (prefers-color-scheme:light){:root{--bg:#f6f8f7;--surface:#fff;--surface2:#f0f4f2;--text:#13201b;--muted:#5a6b64;--line:#dbe3df;--accent:#15803d;--accent2:#0f766e;--ink:#fff;--focus:#0f766e;
+  --active:#15803d;--maintained:#2563eb;--slow:#a16207;--stale:#dc2626;--archived:#52525b;color-scheme:light}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--accent2)}
+code,.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.wrap{max-width:1200px;margin:0 auto;padding:0 16px}
+.hero{padding:48px 0 28px;border-bottom:1px solid var(--line);background:radial-gradient(circle at 15% 0%,color-mix(in srgb,var(--accent) 14%,transparent),transparent 55%)}
+.prompt{font-size:14px;color:var(--muted);margin:0 0 10px}
+.prompt b{color:var(--accent2);font-weight:500}
+h1{font:700 clamp(36px,7vw,64px)/1 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:.08em;margin:0 0 14px;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{font-size:17px;color:var(--muted);max-width:760px;margin:0 0 18px}
+.stats{display:flex;flex-wrap:wrap;gap:10px;margin:0;padding:0;list-style:none}
+.stats li{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-size:14px}
+.stats b{font-size:18px;margin-right:4px}
+.notice{margin:18px 0 0;font-size:13.5px;color:var(--muted);border-left:3px solid var(--slow);padding:6px 10px;background:var(--surface)}
+section.paths{padding:22px 0 6px}
+.paths h2,.section-title{font-size:15px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0 0 12px}
+.path-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px}
+.path{display:block;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px;text-decoration:none;color:var(--text);transition:border-color .15s}
+.path:hover{border-color:var(--accent)}
+.path span{display:block;font-size:12.5px;color:var(--muted);margin-top:3px}
+.controls{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:12px 0 8px;margin-top:18px}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+input[type=search],select{background:var(--surface);color:var(--text);border:1px solid var(--line);border-radius:9px;font:inherit;padding:9px 11px}
+input[type=search]{flex:1;min-width:220px;font-size:16px}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.chips{display:flex;gap:6px;overflow-x:auto;padding:10px 0 2px;scrollbar-width:thin}
+.chip{flex:none;border:1px solid var(--line);background:var(--surface);color:var(--text);padding:4px 11px;border-radius:999px;font:inherit;font-size:13px;cursor:pointer;white-space:nowrap}
+.chip[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--ink)}
+.chip small{opacity:.7;margin-left:4px}
+.meta{color:var(--muted);font-size:14px;margin:14px 0 10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:12px;margin-bottom:48px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:15px 16px;display:flex;flex-direction:column;gap:8px}
+.card:hover{border-color:color-mix(in srgb,var(--accent) 50%,var(--line))}
+.top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.card h3{margin:0;font-size:16.5px}
+.card h3 a{color:var(--text);text-decoration:none}
+.card h3 a:hover{text-decoration:underline}
+.cat{font-size:12px;color:var(--muted)}
+.desc{margin:0;color:var(--muted);font-size:14px}
+.note{margin:0;font-size:12.5px;color:var(--muted);font-style:italic}
+.pills{display:flex;flex-wrap:wrap;gap:6px}
+.pill{font-size:12px;padding:2px 8px;border-radius:999px;background:var(--surface2);color:var(--muted);border:1px solid var(--line)}
+.pill.free{color:var(--accent)}
+.status{display:inline-flex;align-items:center;gap:6px;font-size:12px;white-space:nowrap;color:var(--muted)}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--muted)}
+.foot{margin-top:auto;padding-top:8px;border-top:1px dashed var(--line);display:flex;justify-content:space-between;gap:8px;font-size:12.5px;color:var(--muted)}
+.empty{text-align:center;color:var(--muted);padding:60px 0}
+mark{background:color-mix(in srgb,var(--accent) 30%,transparent);color:inherit;border-radius:3px}
+footer{border-top:1px solid var(--line);color:var(--muted);font-size:13px;padding:22px 0 40px}
+@media (max-width:560px){.grid{grid-template-columns:1fr}select{flex:1}.path-grid{grid-template-columns:1fr 1fr}.prompt{font-size:12px}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <p class="prompt mono">~/security $ <b>learn --practice --defend --legally</b></p>
+    <h1>HACKING</h1>
+    <p class="lead">A maintained map of security courses, labs, tools, references and curated lists. Every GitHub project is health-checked weekly, so you can see at a glance what is still alive.</p>
+    <ul class="stats" id="stats" aria-label="Statistics"></ul>
+    <p class="notice">For learning, defense and authorized testing only. Test systems you own or have written permission to test.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="paths" aria-labelledby="paths-title">
+    <h2 id="paths-title">Learning paths</h2>
+    <div class="path-grid">
+      <a class="path" href="https://github.com/Ethos6/Hacking/blob/main/paths/start-here.md">🧭 Start here<span>Linux, networks, web, first CTFs</span></a>
+      <a class="path" href="https://github.com/Ethos6/Hacking/blob/main/paths/web.md">🌐 Web security<span>Find and fix web and API flaws</span></a>
+      <a class="path" href="https://github.com/Ethos6/Hacking/blob/main/paths/blue-team.md">🛡️ Blue team<span>Detect, investigate, respond</span></a>
+      <a class="path" href="https://github.com/Ethos6/Hacking/blob/main/paths/network-ad.md">🏰 Networks and AD<span>Enterprise networks in a lab</span></a>
+      <a class="path" href="https://github.com/Ethos6/Hacking/blob/main/paths/reverse-engineering.md">🔬 Reverse engineering<span>Binaries, memory bugs, malware</span></a>
+      <a class="path" href="https://github.com/Ethos6/Hacking/blob/main/paths/cloud-devsecops.md">☁️ Cloud and DevSecOps<span>Code, pipelines, cloud accounts</span></a>
+    </div>
+  </section>
+
+  <section class="controls" aria-label="Search and filters">
+    <div class="row">
+      <input id="q" type="search" placeholder="Search tools, topics or tags (press /)" aria-label="Search" autocomplete="off">
+      <select id="type" aria-label="Type"><option value="">All types</option><option value="course">Courses</option><option value="platform">Platforms</option><option value="lab">Labs</option><option value="tool">Tools</option><option value="reference">References</option><option value="list">Lists</option></select>
+      <select id="level" aria-label="Level"><option value="">All levels</option><option value="beginner">Beginner</option><option value="intermediate">Intermediate</option><option value="advanced">Advanced</option></select>
+      <select id="status" aria-label="Health"><option value="">Any health</option><option value="active">Active only</option><option value="maintained">Active or maintained</option></select>
+      <select id="sort" aria-label="Sort"><option value="stars">Most stars</option><option value="updated">Recently updated</option><option value="name">Name</option></select>
+    </div>
+    <div class="chips" id="chips" role="group" aria-label="Categories"></div>
+  </section>
+
+  <p class="meta" id="meta" aria-live="polite">Loading…</p>
+  <div class="grid" id="grid"></div>
+  <noscript><p class="empty">This page needs JavaScript. The full list is in the <a href="https://github.com/Ethos6/Hacking#contents">README on GitHub</a>.</p></noscript>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Data: <a href="api/resources.json">resources.json</a> (CC0) · Code: MIT · <a href="https://github.com/Ethos6/Hacking">GitHub</a> · <a href="https://github.com/Ethos6/Hacking/blob/main/CONTRIBUTING.md">Contribute</a> · <a href="https://github.com/Ethos6/Hacking/issues/new/choose">Report a problem</a></p>
+    <p>Every listed project belongs to its authors. Health data comes from the GitHub API and is refreshed weekly.</p>
+  </div>
+</footer>
+
+<script>
+(async function () {
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+  const STATUS = { active: ['Active', 'Updated in the last 6 months'], maintained: ['Maintained', 'Updated in the last 18 months'], slow: ['Slow', 'No update for 18 months to 3 years'], stale: ['Stale', 'No update for over 3 years'], archived: ['Archived', 'Archived by its owner'] };
+  const TYPE = { course: 'Course', platform: 'Platform', lab: 'Lab', tool: 'Tool', reference: 'Reference', list: 'List' };
+  const compact = (n) => (n >= 1000 ? `${(n / 1000).toFixed(n >= 10000 ? 0 : 1).replace(/\.0$/, '')}k` : String(n));
+  const month = (d) => new Date(`${d}T00:00:00Z`).toLocaleDateString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' });
+  const state = { q: '', cat: '', type: '', level: '', status: '', sort: 'stars' };
+
+  let data, cats;
+  try {
+    [data, cats] = await Promise.all([fetch('api/resources.json').then((r) => r.json()), fetch('api/categories.json').then((r) => r.json())]);
+  } catch {
+    $('meta').textContent = 'Could not load the data. Please reload.';
+    return;
+  }
+  const items = data.resources;
+  const title = Object.fromEntries(cats.map((c) => [c.id, c.title]));
+  items.forEach((r) => (r._hay = [r.name, r.description, title[r.category], r.type, r.level, r.note, ...(r.tags || [])].join(' ').toLowerCase()));
+
+  const tracked = items.filter((r) => r.status);
+  const live = tracked.filter((r) => r.status === 'active' || r.status === 'maintained').length;
+  $('stats').innerHTML = [
+    `<li><b>${items.length}</b>resources</li>`,
+    `<li><b>${cats.length}</b>categories</li>`,
+    `<li><b>${live}/${tracked.length}</b>GitHub projects maintained</li>`,
+    `<li>Health checked <b class="mono" style="font-size:14px">${esc(data.health_checked || '')}</b></li>`,
+  ].join('');
+
+  const p = new URLSearchParams(location.hash.slice(1));
+  for (const k of Object.keys(state)) if (p.get(k)) state[k] = p.get(k);
+  for (const k of ['type', 'level', 'status', 'sort']) $(k).value = state[k];
+  $('q').value = state.q;
+
+  function chips() {
+    const all = [{ id: '', title: 'All', count: items.length }, ...cats];
+    $('chips').innerHTML = all.map((c) => `<button class="chip" data-cat="${esc(c.id)}" aria-pressed="${state.cat === c.id}">${esc(c.title)}<small>${c.count}</small></button>`).join('');
+  }
+  const hl = (text, terms) => {
+    let out = esc(text);
+    for (const t of terms) if (t.length > 1) out = out.replace(new RegExp(`(${t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi'), '<mark>$1</mark>');
+    return out;
+  };
+
+  function render() {
+    const terms = state.q.toLowerCase().split(/\s+/).filter(Boolean);
+    const list = items.filter((r) =>
+      (!state.cat || r.category === state.cat) &&
+      (!state.type || r.type === state.type) &&
+      (!state.level || r.level === state.level) &&
+      (!state.status || (state.status === 'active' ? r.status === 'active' : r.status === 'active' || r.status === 'maintained')) &&
+      terms.every((t) => r._hay.includes(t)));
+    const by = {
+      stars: (a, b) => (b.stars ?? -1) - (a.stars ?? -1) || a.name.localeCompare(b.name),
+      updated: (a, b) => (b.last_commit ?? '').localeCompare(a.last_commit ?? '') || a.name.localeCompare(b.name),
+      name: (a, b) => a.name.localeCompare(b.name),
+    }[state.sort];
+    list.sort(by);
+    $('meta').textContent = `${list.length} of ${items.length} resources`;
+    $('grid').innerHTML = list.length ? list.map((r) => {
+      const st = r.status ? `<span class="status" title="${esc(STATUS[r.status][1])}"><span class="dot" style="background:var(--${r.status})"></span>${STATUS[r.status][0]}</span>` : '';
+      const pills = [`<span class="pill">${TYPE[r.type]}</span>`];
+      if (r.level) pills.push(`<span class="pill">${r.level[0].toUpperCase() + r.level.slice(1)}</span>`);
+      if (r.free) pills.push('<span class="pill free">Free</span>');
+      for (const t of (r.tags || []).slice(0, 3)) pills.push(`<span class="pill">#${esc(t)}</span>`);
+      const foot = r.repo
+        ? `<a href="https://github.com/${esc(r.repo)}" rel="noopener" class="mono">${esc(r.repo)}</a><span>★ ${compact(r.stars)} · ${month(r.last_commit)}</span>`
+        : `<span>Website</span><a href="${esc(r.url)}" rel="noopener">Visit ↗</a>`;
+      return `<article class="card">
+        <div class="top"><div><h3><a href="${esc(r.url)}" rel="noopener">${hl(r.name, terms)}</a></h3><div class="cat">${esc(title[r.category])}</div></div>${st}</div>
+        <p class="desc">${hl(r.description, terms)}</p>
+        ${r.note ? `<p class="note">${esc(r.note)}</p>` : ''}
+        <div class="pills">${pills.join('')}</div>
+        <div class="foot">${foot}</div>
+      </article>`;
+    }).join('') : '<p class="empty">Nothing matches. Try fewer filters or a shorter search.</p>';
+
+    const h = new URLSearchParams();
+    for (const [k, v] of Object.entries(state)) if (v && !(k === 'sort' && v === 'stars')) h.set(k, v);
+    history.replaceState(null, '', h.toString() ? `#${h}` : location.pathname);
+  }
+
+  $('q').addEventListener('input', (e) => { state.q = e.target.value.trim(); render(); });
+  for (const k of ['type', 'level', 'status', 'sort']) $(k).addEventListener('change', (e) => { state[k] = e.target.value; render(); });
+  $('chips').addEventListener('click', (e) => { const b = e.target.closest('.chip'); if (!b) return; state.cat = b.dataset.cat; chips(); render(); });
+  document.addEventListener('keydown', (e) => { if (e.key === '/' && document.activeElement !== $('q')) { e.preventDefault(); $('q').focus(); } });
+  chips();
+  render();
+})();
+</script>
+</body>
+</html>
