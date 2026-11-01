@@ -1,0 +1,5 @@
+node_modules/
+site/api/
+report.md
+health-report.md
+*.log
