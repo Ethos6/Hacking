@@ -1,0 +1,64 @@
+{
+  "category": "Mobile security",
+  "description": "Android and iOS testing guides and tools.",
+  "resources": [
+    {
+      "id": "android-security-awesome",
+      "name": "Android Security Awesome",
+      "url": "https://github.com/ashishb/android-security-awesome",
+      "type": "list",
+      "description": "Android security tools, academic research and learning material.",
+      "repo": "ashishb/android-security-awesome",
+      "level": "intermediate",
+      "tags": [
+        "android"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "osx-ios-security-awesome",
+      "name": "macOS and iOS Security Awesome",
+      "url": "https://github.com/ashishb/osx-and-ios-security-awesome",
+      "type": "list",
+      "description": "macOS and iOS security tools and resources.",
+      "repo": "ashishb/osx-and-ios-security-awesome",
+      "level": "intermediate",
+      "tags": [
+        "ios",
+        "macos"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "mobsf",
+      "name": "MobSF",
+      "url": "https://github.com/MobSF/Mobile-Security-Framework-MobSF",
+      "type": "tool",
+      "description": "Automated static and dynamic analysis for Android and iOS apps.",
+      "repo": "MobSF/Mobile-Security-Framework-MobSF",
+      "level": "beginner",
+      "free": true,
+      "tags": [
+        "android",
+        "ios"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "owasp-mastg",
+      "name": "OWASP MASTG",
+      "url": "https://mas.owasp.org/MASTG/",
+      "type": "reference",
+      "description": "Mobile Application Security Testing Guide: the standard manual for testing Android and iOS apps.",
+      "repo": "OWASP/mastg",
+      "level": "intermediate",
+      "free": true,
+      "tags": [
+        "owasp",
+        "android",
+        "ios"
+      ],
+      "added": "2026-11-01"
+    }
+  ]
+}

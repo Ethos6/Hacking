@@ -1,0 +1,81 @@
+{
+  "category": "Vulnerable labs",
+  "description": "Deliberately vulnerable apps and environments to practice on legally, on your own machine.",
+  "resources": [
+    {
+      "id": "dvwa",
+      "name": "DVWA",
+      "url": "https://github.com/digininja/DVWA",
+      "type": "lab",
+      "description": "Damn Vulnerable Web Application: a classic PHP/MySQL app with adjustable difficulty for practicing common web flaws.",
+      "repo": "digininja/DVWA",
+      "level": "beginner",
+      "free": true,
+      "tags": [
+        "web",
+        "php"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "goad",
+      "name": "GOAD (Game of Active Directory)",
+      "url": "https://github.com/Orange-Cyberdefense/GOAD",
+      "type": "lab",
+      "description": "Builds a vulnerable multi-domain Active Directory lab to practice AD attack and defense techniques.",
+      "repo": "Orange-Cyberdefense/GOAD",
+      "level": "advanced",
+      "free": true,
+      "tags": [
+        "active-directory",
+        "windows"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "juice-shop",
+      "name": "OWASP Juice Shop",
+      "url": "https://owasp.org/www-project-juice-shop/",
+      "type": "lab",
+      "description": "A modern, intentionally insecure web shop with 100+ challenges covering the OWASP Top 10 and beyond.",
+      "repo": "juice-shop/juice-shop",
+      "level": "beginner",
+      "free": true,
+      "tags": [
+        "web",
+        "docker"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "webgoat",
+      "name": "OWASP WebGoat",
+      "url": "https://owasp.org/www-project-webgoat/",
+      "type": "lab",
+      "description": "Lessons plus a deliberately insecure Java application that explains each vulnerability as you exploit it.",
+      "repo": "WebGoat/WebGoat",
+      "level": "beginner",
+      "free": true,
+      "tags": [
+        "web",
+        "java"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "vulhub",
+      "name": "Vulhub",
+      "url": "https://vulhub.org/",
+      "type": "lab",
+      "description": "Ready-made Docker Compose environments that reproduce real-world vulnerabilities for study.",
+      "repo": "vulhub/vulhub",
+      "level": "intermediate",
+      "free": true,
+      "tags": [
+        "docker",
+        "cve"
+      ],
+      "added": "2026-11-01"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "category": "Recon and OSINT",
+  "description": "Asset discovery, port scanning and open-source intelligence.",
+  "resources": [
+    {
+      "id": "awesome-asset-discovery",
+      "name": "Awesome Asset Discovery",
+      "url": "https://github.com/redhuntlabs/Awesome-Asset-Discovery",
+      "type": "list",
+      "description": "Resources for the asset discovery phase of a security assessment.",
+      "repo": "redhuntlabs/Awesome-Asset-Discovery",
+      "level": "intermediate",
+      "tags": [
+        "asset-discovery"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-osint",
+      "name": "Awesome OSINT",
+      "url": "https://github.com/jivoi/awesome-osint",
+      "type": "list",
+      "description": "Large collection of open-source intelligence tools and resources, organized by data source.",
+      "repo": "jivoi/awesome-osint",
+      "level": "beginner",
+      "tags": [
+        "osint"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "httpx",
+      "name": "httpx",
+      "url": "https://github.com/projectdiscovery/httpx",
+      "type": "tool",
+      "description": "Fast HTTP probing toolkit to find live hosts and collect titles, status codes and technologies.",
+      "repo": "projectdiscovery/httpx",
+      "level": "beginner",
+      "free": true,
+      "tags": [
+        "http",
+        "probing"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "masscan",
+      "name": "masscan",
+      "url": "https://github.com/robertdavidgraham/masscan",
+      "type": "tool",
+      "description": "Very fast asynchronous port scanner for large address ranges.",
+      "repo": "robertdavidgraham/masscan",
+      "level": "intermediate",
+      "free": true,
+      "tags": [
+        "port-scanning"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "nmap",
+      "name": "Nmap",
+      "url": "https://nmap.org/",
+      "type": "tool",
+      "description": "The network mapper: host discovery, port scanning, service and OS detection, plus the NSE scripting engine.",
+      "repo": "nmap/nmap",
+      "level": "beginner",
+      "free": true,
+      "tags": [
+        "port-scanning"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "amass",
+      "name": "OWASP Amass",
+      "url": "https://github.com/owasp-amass/amass",
+      "type": "tool",
+      "description": "In-depth attack surface mapping and external asset discovery.",
+      "repo": "owasp-amass/amass",
+      "level": "intermediate",
+      "free": true,
+      "tags": [
+        "asset-discovery",
+        "dns"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "rustscan",
+      "name": "RustScan",
+      "url": "https://github.com/bee-san/RustScan",
+      "type": "tool",
+      "description": "Fast port scanner that finds open ports quickly and can hand results to Nmap.",
+      "repo": "bee-san/RustScan",
+      "level": "beginner",
+      "free": true,
+      "tags": [
+        "port-scanning"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "subfinder",
+      "name": "subfinder",
+      "url": "https://github.com/projectdiscovery/subfinder",
+      "type": "tool",
+      "description": "Passive subdomain discovery using many online sources.",
+      "repo": "projectdiscovery/subfinder",
+      "level": "beginner",
+      "free": true,
+      "tags": [
+        "subdomains"
+      ],
+      "added": "2026-11-01"
+    }
+  ]
+}

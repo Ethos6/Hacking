@@ -1,0 +1,108 @@
+{
+  "category": "Network and Active Directory",
+  "description": "Packet analysis, network monitoring and Windows/AD assessment.",
+  "resources": [
+    {
+      "id": "awesome-pcaptools",
+      "name": "Awesome PCAP Tools",
+      "url": "https://github.com/caesar0301/awesome-pcaptools",
+      "type": "list",
+      "description": "Tools for processing and analyzing network traffic captures.",
+      "repo": "caesar0301/awesome-pcaptools",
+      "level": "intermediate",
+      "tags": [
+        "pcap"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-suricata",
+      "name": "Awesome Suricata",
+      "url": "https://github.com/satta/awesome-suricata",
+      "type": "list",
+      "description": "Rules, tools, dashboards and documentation for Suricata.",
+      "repo": "satta/awesome-suricata",
+      "level": "intermediate",
+      "tags": [
+        "ids"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "bloodhound",
+      "name": "BloodHound",
+      "url": "https://github.com/SpecterOps/BloodHound",
+      "type": "tool",
+      "description": "Maps relationships in Active Directory and Entra ID to reveal attack paths so defenders can remove them.",
+      "repo": "SpecterOps/BloodHound",
+      "level": "intermediate",
+      "free": true,
+      "tags": [
+        "active-directory",
+        "attack-paths"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "impacket",
+      "name": "Impacket",
+      "url": "https://github.com/fortra/impacket",
+      "type": "tool",
+      "description": "Python classes and example scripts for working with network protocols such as SMB, Kerberos and MSRPC.",
+      "repo": "fortra/impacket",
+      "level": "advanced",
+      "free": true,
+      "tags": [
+        "windows",
+        "smb",
+        "kerberos"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "suricata",
+      "name": "Suricata",
+      "url": "https://suricata.io/",
+      "type": "tool",
+      "description": "High-performance IDS/IPS and network security monitoring engine.",
+      "repo": "OISF/suricata",
+      "level": "intermediate",
+      "free": true,
+      "tags": [
+        "ids",
+        "ips"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "wireshark",
+      "name": "Wireshark",
+      "url": "https://www.wireshark.org/",
+      "type": "tool",
+      "description": "The standard network protocol analyzer for capturing and inspecting traffic.",
+      "repo": "wireshark/wireshark",
+      "level": "beginner",
+      "free": true,
+      "tags": [
+        "packets",
+        "pcap"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "zeek",
+      "name": "Zeek",
+      "url": "https://zeek.org/",
+      "type": "tool",
+      "description": "Network security monitoring platform that turns traffic into rich, structured logs.",
+      "repo": "zeek/zeek",
+      "level": "intermediate",
+      "free": true,
+      "tags": [
+        "nsm",
+        "logs"
+      ],
+      "added": "2026-11-01"
+    }
+  ]
+}

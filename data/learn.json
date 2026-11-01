@@ -1,0 +1,182 @@
+{
+  "category": "Learn and practice",
+  "description": "Free courses, wargames and hands-on platforms. Start here.",
+  "resources": [
+    {
+      "id": "cyber-security-university",
+      "name": "Awesome Cyber Security University",
+      "url": "https://github.com/brootware/awesome-cyber-security-university",
+      "type": "list",
+      "description": "A self-study curriculum of free resources, ordered from introduction to purple teaming.",
+      "repo": "brootware/awesome-cyber-security-university",
+      "level": "beginner",
+      "tags": [
+        "curriculum"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-cyber-skills",
+      "name": "Awesome Cyber Skills",
+      "url": "https://github.com/joe-shenouda/awesome-cyber-skills",
+      "type": "list",
+      "description": "Legal places to practice hacking skills: challenge sites, vulnerable apps and wargames.",
+      "repo": "joe-shenouda/awesome-cyber-skills",
+      "level": "beginner",
+      "tags": [
+        "practice"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "cryptohack",
+      "name": "CryptoHack",
+      "url": "https://cryptohack.org/",
+      "type": "course",
+      "description": "Free platform for learning modern cryptography by breaking flawed implementations of RSA, AES, elliptic curves and more.",
+      "level": "intermediate",
+      "free": true,
+      "tags": [
+        "cryptography"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "ctf-wiki",
+      "name": "CTF Wiki",
+      "url": "https://ctf-wiki.org/",
+      "type": "reference",
+      "description": "Community knowledge base covering CTF categories: web, crypto, reverse engineering, pwn and misc.",
+      "repo": "ctf-wiki/ctf-wiki",
+      "level": "beginner",
+      "free": true,
+      "tags": [
+        "ctf"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "ctftime",
+      "name": "CTFtime",
+      "url": "https://ctftime.org/",
+      "type": "platform",
+      "description": "Calendar of upcoming capture-the-flag events, team rankings and an archive of challenge writeups.",
+      "tags": [
+        "ctf",
+        "writeups"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "exploit-education",
+      "name": "Exploit Education",
+      "url": "https://exploit.education/",
+      "type": "lab",
+      "description": "Downloadable VMs for learning exploitation: Nebula (Linux privilege escalation), Phoenix (memory corruption) and Fusion (advanced).",
+      "level": "intermediate",
+      "tags": [
+        "binary-exploitation",
+        "vm"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "hackthebox",
+      "name": "Hack The Box",
+      "url": "https://www.hackthebox.com/",
+      "type": "platform",
+      "description": "Hacking labs and machines. The free plan includes Starting Point tiers 0-2 and retired machines in Guided Mode.",
+      "level": "intermediate",
+      "note": "Free plan with limits; paid plans unlock more.",
+      "tags": [
+        "labs",
+        "machines"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "hacker101",
+      "name": "Hacker101",
+      "url": "https://www.hacker101.com/",
+      "type": "course",
+      "description": "HackerOne's free web security class with videos and CTF-style exercises for aspiring bug bounty hunters.",
+      "repo": "Hacker0x01/hacker101",
+      "level": "beginner",
+      "free": true,
+      "tags": [
+        "web",
+        "bug-bounty"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "overthewire",
+      "name": "OverTheWire",
+      "url": "https://overthewire.org/wargames/",
+      "type": "platform",
+      "description": "Classic wargames played over SSH. Start with Bandit for Linux basics, then move on to web (Natas) and binary games.",
+      "level": "beginner",
+      "tags": [
+        "linux",
+        "wargames"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "picoctf",
+      "name": "picoCTF (CyLab Security Academy)",
+      "url": "https://picoctf.org/",
+      "type": "course",
+      "description": "Carnegie Mellon University's free learning platform, home of the picoCTF beginner competition.",
+      "level": "beginner",
+      "free": true,
+      "tags": [
+        "ctf",
+        "students"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "pwn-college",
+      "name": "pwn.college",
+      "url": "https://pwn.college/",
+      "type": "course",
+      "description": "Arizona State University's free, hands-on 'dojo' that teaches core security skills from the terminal up to binary exploitation.",
+      "level": "beginner",
+      "free": true,
+      "tags": [
+        "linux",
+        "binary-exploitation"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "tryhackme",
+      "name": "TryHackMe",
+      "url": "https://tryhackme.com/",
+      "type": "platform",
+      "description": "Guided rooms and learning paths in the browser. The free plan includes free rooms and a 1-hour daily AttackBox.",
+      "level": "beginner",
+      "note": "Free plan with limits; paid plans unlock all paths.",
+      "tags": [
+        "guided",
+        "labs"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "portswigger-academy",
+      "name": "Web Security Academy",
+      "url": "https://portswigger.net/web-security",
+      "type": "course",
+      "description": "Free interactive web security training from PortSwigger with hands-on labs for SQL injection, XSS, SSRF, access control and more.",
+      "level": "beginner",
+      "free": true,
+      "tags": [
+        "web",
+        "labs"
+      ],
+      "added": "2026-11-01"
+    }
+  ]
+}

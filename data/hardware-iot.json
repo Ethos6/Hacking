@@ -1,0 +1,115 @@
+{
+  "category": "Hardware, IoT and specialized systems",
+  "description": "Cellular, vehicles, industrial control systems, drones, RTC and physical security.",
+  "resources": [
+    {
+      "id": "awesome-cellular-hacking",
+      "name": "Awesome Cellular Hacking",
+      "url": "https://github.com/W00t3k/Awesome-Cellular-Hacking",
+      "type": "list",
+      "description": "Research on 2G to 5G cellular network security.",
+      "repo": "W00t3k/Awesome-Cellular-Hacking",
+      "level": "advanced",
+      "tags": [
+        "cellular",
+        "5g"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-drone-hacking",
+      "name": "Awesome Drone Hacking",
+      "url": "https://github.com/nicholasaleks/Awesome-Drone-Hacking",
+      "type": "list",
+      "description": "Drone and UAV security research and tools.",
+      "repo": "nicholasaleks/Awesome-Drone-Hacking",
+      "level": "advanced",
+      "tags": [
+        "drones"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-ics-security",
+      "name": "Awesome ICS Security",
+      "url": "https://github.com/hslatman/awesome-industrial-control-system-security",
+      "type": "list",
+      "description": "Industrial control system (SCADA/ICS) security resources.",
+      "repo": "hslatman/awesome-industrial-control-system-security",
+      "level": "advanced",
+      "tags": [
+        "ics",
+        "scada"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-iot-hardware-security",
+      "name": "Awesome IoT and Hardware Security",
+      "url": "https://github.com/kayranfatih/awesome-iot-and-hardware-security",
+      "type": "list",
+      "description": "IoT and hardware security tools, learning resources and research.",
+      "repo": "kayranfatih/awesome-iot-and-hardware-security",
+      "level": "intermediate",
+      "tags": [
+        "iot",
+        "hardware"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-mainframe-hacking",
+      "name": "Awesome Mainframe Hacking",
+      "url": "https://github.com/samanL33T/Awesome-Mainframe-Hacking",
+      "type": "list",
+      "description": "Resources on mainframe (z/OS) security testing.",
+      "repo": "samanL33T/Awesome-Mainframe-Hacking",
+      "level": "advanced",
+      "tags": [
+        "mainframe"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-rtc-hacking",
+      "name": "Awesome RTC Hacking",
+      "url": "https://github.com/EnableSecurity/awesome-rtc-hacking",
+      "type": "list",
+      "description": "Security of VoIP, WebRTC and real-time communications.",
+      "repo": "EnableSecurity/awesome-rtc-hacking",
+      "level": "advanced",
+      "tags": [
+        "voip",
+        "webrtc"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-vehicle-security",
+      "name": "Awesome Vehicle Security",
+      "url": "https://github.com/jaredthecoder/awesome-vehicle-security",
+      "type": "list",
+      "description": "Automotive security resources: CAN bus, tools, talks and research.",
+      "repo": "jaredthecoder/awesome-vehicle-security",
+      "level": "advanced",
+      "tags": [
+        "automotive",
+        "can-bus"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "redteam-physical-tools",
+      "name": "Red Team Physical Tools",
+      "url": "https://github.com/DavidProbinsky/RedTeam-Physical-Tools",
+      "type": "list",
+      "description": "Tools for physical security assessments: locks, RFID and covert entry.",
+      "repo": "DavidProbinsky/RedTeam-Physical-Tools",
+      "level": "advanced",
+      "tags": [
+        "physical"
+      ],
+      "added": "2026-11-01"
+    }
+  ]
+}

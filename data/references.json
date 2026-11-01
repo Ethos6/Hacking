@@ -1,0 +1,184 @@
+{
+  "category": "References and meta-lists",
+  "description": "Broad knowledge bases, cheat sheets and other curated collections.",
+  "resources": [
+    {
+      "id": "awesome-annual-security-reports",
+      "name": "Awesome Annual Security Reports",
+      "url": "https://github.com/jacobdjwilson/awesome-annual-security-reports",
+      "type": "list",
+      "description": "Annual industry security reports in one place.",
+      "repo": "jacobdjwilson/awesome-annual-security-reports",
+      "level": "beginner",
+      "tags": [
+        "reports",
+        "trends"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-hacking-original",
+      "name": "Awesome Hacking",
+      "url": "https://github.com/Hack-with-Github/Awesome-Hacking",
+      "type": "list",
+      "description": "The long-running index of awesome lists for hackers and pentesters, started in 2016.",
+      "repo": "Hack-with-Github/Awesome-Hacking",
+      "level": "beginner",
+      "tags": [
+        "collection"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-infosec",
+      "name": "Awesome Infosec",
+      "url": "https://github.com/onlurking/awesome-infosec",
+      "type": "list",
+      "description": "Courses, labs, CTFs and books for learning information security.",
+      "repo": "onlurking/awesome-infosec",
+      "level": "beginner",
+      "tags": [
+        "learning"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-security",
+      "name": "Awesome Security",
+      "url": "https://github.com/sbilly/awesome-security",
+      "type": "list",
+      "description": "Software, libraries, documents and books about security.",
+      "repo": "sbilly/awesome-security",
+      "level": "beginner",
+      "tags": [
+        "collection"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-sec-talks",
+      "name": "Awesome Security Talks",
+      "url": "https://github.com/PaulSec/awesome-sec-talks",
+      "type": "list",
+      "description": "Recorded security conference talks.",
+      "repo": "PaulSec/awesome-sec-talks",
+      "level": "beginner",
+      "tags": [
+        "talks",
+        "videos"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-tor",
+      "name": "Awesome Tor",
+      "url": "https://github.com/polycarbohydrate/awesome-tor",
+      "type": "list",
+      "description": "Resources about the Tor network and anonymous communication.",
+      "repo": "polycarbohydrate/awesome-tor",
+      "level": "beginner",
+      "tags": [
+        "privacy",
+        "tor"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-web3-security",
+      "name": "Awesome Web3 Security",
+      "url": "https://github.com/Anugrahsr/Awesome-web3-Security",
+      "type": "list",
+      "description": "Smart contract and blockchain security resources.",
+      "repo": "Anugrahsr/Awesome-web3-Security",
+      "level": "intermediate",
+      "tags": [
+        "web3",
+        "smart-contracts"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "cyberchef",
+      "name": "CyberChef",
+      "url": "https://gchq.github.io/CyberChef/",
+      "type": "tool",
+      "description": "The 'Cyber Swiss Army Knife': encode, decode, decrypt and analyze data in your browser.",
+      "repo": "gchq/CyberChef",
+      "level": "beginner",
+      "free": true,
+      "tags": [
+        "encoding",
+        "browser"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "cybersources",
+      "name": "CyberSources",
+      "url": "https://github.com/bst04/CyberSources",
+      "type": "list",
+      "description": "Collection of cybersecurity resources, tools and references.",
+      "repo": "bst04/CyberSources",
+      "level": "beginner",
+      "tags": [
+        "collection"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "h4cker",
+      "name": "h4cker",
+      "url": "https://github.com/The-Art-of-Hacking/h4cker",
+      "type": "reference",
+      "description": "Thousands of resources on ethical hacking, bug bounties, DFIR, AI security and more, maintained by Omar Santos.",
+      "repo": "The-Art-of-Hacking/h4cker",
+      "level": "beginner",
+      "tags": [
+        "collection"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "hacktricks",
+      "name": "HackTricks",
+      "url": "https://book.hacktricks.wiki/",
+      "type": "reference",
+      "description": "Large wiki of pentesting techniques and checklists across platforms and services.",
+      "repo": "HackTricks-wiki/hacktricks",
+      "level": "intermediate",
+      "tags": [
+        "methodology",
+        "cheatsheet"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "infosec-reference",
+      "name": "Infosec Reference",
+      "url": "https://github.com/rmusser01/Infosec_Reference",
+      "type": "reference",
+      "description": "Extensive, categorized information security reference.",
+      "repo": "rmusser01/Infosec_Reference",
+      "level": "intermediate",
+      "tags": [
+        "collection"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "owasp-cheat-sheets",
+      "name": "OWASP Cheat Sheet Series",
+      "url": "https://cheatsheetseries.owasp.org/",
+      "type": "reference",
+      "description": "Concise, practical guidance on specific application security topics for developers.",
+      "repo": "OWASP/CheatSheetSeries",
+      "level": "beginner",
+      "free": true,
+      "tags": [
+        "owasp",
+        "secure-coding"
+      ],
+      "added": "2026-11-01"
+    }
+  ]
+}

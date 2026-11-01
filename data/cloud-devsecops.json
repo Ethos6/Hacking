@@ -1,0 +1,121 @@
+{
+  "category": "Cloud and DevSecOps",
+  "description": "Cloud posture, container and code scanning, secrets detection, CI/CD security.",
+  "resources": [
+    {
+      "id": "awesome-cicd-attacks",
+      "name": "Awesome CI/CD Attacks",
+      "url": "https://github.com/TupleType/awesome-cicd-attacks",
+      "type": "list",
+      "description": "Research on attacking and hardening CI/CD systems and deployment pipelines.",
+      "repo": "TupleType/awesome-cicd-attacks",
+      "level": "advanced",
+      "tags": [
+        "ci-cd",
+        "supply-chain"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "gitleaks",
+      "name": "Gitleaks",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "type": "tool",
+      "description": "Detects hardcoded secrets in Git repositories and files.",
+      "repo": "gitleaks/gitleaks",
+      "level": "beginner",
+      "free": true,
+      "tags": [
+        "secrets"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "osv-scanner",
+      "name": "OSV-Scanner",
+      "url": "https://github.com/google/osv-scanner",
+      "type": "tool",
+      "description": "Finds known vulnerabilities in your dependencies using the OSV database.",
+      "repo": "google/osv-scanner",
+      "level": "beginner",
+      "free": true,
+      "tags": [
+        "sca",
+        "dependencies"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "prowler",
+      "name": "Prowler",
+      "url": "https://github.com/prowler-cloud/prowler",
+      "type": "tool",
+      "description": "Security posture checks for AWS, Azure, GCP and Kubernetes against common benchmarks.",
+      "repo": "prowler-cloud/prowler",
+      "level": "intermediate",
+      "free": true,
+      "tags": [
+        "cloud",
+        "compliance"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "semgrep",
+      "name": "Semgrep",
+      "url": "https://semgrep.dev/",
+      "type": "tool",
+      "description": "Fast static analysis with readable rules for finding bugs and enforcing secure code.",
+      "repo": "semgrep/semgrep",
+      "level": "beginner",
+      "free": true,
+      "tags": [
+        "sast"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "static-analysis",
+      "name": "Static Analysis Tools",
+      "url": "https://analysis-tools.dev/",
+      "type": "list",
+      "description": "Large directory of static analysis tools and linters for every language.",
+      "repo": "analysis-tools-dev/static-analysis",
+      "level": "beginner",
+      "tags": [
+        "sast"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "trivy",
+      "name": "Trivy",
+      "url": "https://trivy.dev/",
+      "type": "tool",
+      "description": "Scans containers, filesystems, Git repos and IaC for vulnerabilities, misconfigurations and secrets.",
+      "repo": "aquasecurity/trivy",
+      "level": "beginner",
+      "free": true,
+      "tags": [
+        "containers",
+        "sca",
+        "iac"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "trufflehog",
+      "name": "TruffleHog",
+      "url": "https://github.com/trufflesecurity/trufflehog",
+      "type": "tool",
+      "description": "Finds and verifies leaked credentials across Git, cloud storage and chat tools.",
+      "repo": "trufflesecurity/trufflehog",
+      "level": "beginner",
+      "free": true,
+      "tags": [
+        "secrets"
+      ],
+      "added": "2026-11-01"
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "category": "Web and API security",
+  "description": "Testing guides, checklists, scanners and payload references for web apps and APIs.",
+  "resources": [
+    {
+      "id": "api-security-checklist",
+      "name": "API Security Checklist",
+      "url": "https://github.com/shieldfy/API-Security-Checklist",
+      "type": "reference",
+      "description": "Short checklist of countermeasures for designing, testing and releasing APIs.",
+      "repo": "shieldfy/API-Security-Checklist",
+      "level": "beginner",
+      "tags": [
+        "api",
+        "checklist"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-appsec",
+      "name": "Awesome AppSec",
+      "url": "https://github.com/paragonie/awesome-appsec",
+      "type": "list",
+      "description": "Resources for developers learning to build secure applications.",
+      "repo": "paragonie/awesome-appsec",
+      "level": "beginner",
+      "tags": [
+        "secure-coding"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-nodejs-security",
+      "name": "Awesome Node.js Security",
+      "url": "https://github.com/lirantal/awesome-nodejs-security",
+      "type": "list",
+      "description": "Node.js security tools, educational material, companies and talks.",
+      "repo": "lirantal/awesome-nodejs-security",
+      "level": "intermediate",
+      "tags": [
+        "nodejs",
+        "javascript"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-web-hacking",
+      "name": "Awesome Web Hacking",
+      "url": "https://github.com/infoslack/awesome-web-hacking",
+      "type": "list",
+      "description": "Books, documentation, tools and labs for web application penetration testing.",
+      "repo": "infoslack/awesome-web-hacking",
+      "level": "beginner",
+      "tags": [
+        "web"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-web-security",
+      "name": "Awesome Web Security",
+      "url": "https://github.com/qazbnm456/awesome-web-security",
+      "type": "list",
+      "description": "Curated web security materials: XSS, SQLi, SSRF, deserialization, browser exploitation and more.",
+      "repo": "qazbnm456/awesome-web-security",
+      "level": "intermediate",
+      "tags": [
+        "web"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "ffuf",
+      "name": "ffuf",
+      "url": "https://github.com/ffuf/ffuf",
+      "type": "tool",
+      "description": "Fast web fuzzer for content discovery, virtual hosts and parameter fuzzing.",
+      "repo": "ffuf/ffuf",
+      "level": "intermediate",
+      "free": true,
+      "tags": [
+        "fuzzing",
+        "content-discovery"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "gobuster",
+      "name": "Gobuster",
+      "url": "https://github.com/OJ/gobuster",
+      "type": "tool",
+      "description": "Brute-forces directories, DNS subdomains, virtual hosts and cloud buckets.",
+      "repo": "OJ/gobuster",
+      "level": "beginner",
+      "free": true,
+      "tags": [
+        "content-discovery",
+        "dns"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "nuclei",
+      "name": "Nuclei",
+      "url": "https://github.com/projectdiscovery/nuclei",
+      "type": "tool",
+      "description": "Template-based vulnerability scanner with a large community library of checks.",
+      "repo": "projectdiscovery/nuclei",
+      "level": "intermediate",
+      "free": true,
+      "tags": [
+        "scanner",
+        "templates"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "owasp-asvs",
+      "name": "OWASP ASVS",
+      "url": "https://owasp.org/www-project-application-security-verification-standard/",
+      "type": "reference",
+      "description": "Application Security Verification Standard: testable security requirements for designing and verifying apps.",
+      "repo": "OWASP/ASVS",
+      "level": "intermediate",
+      "free": true,
+      "tags": [
+        "owasp",
+        "requirements"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "owasp-top10",
+      "name": "OWASP Top 10",
+      "url": "https://owasp.org/www-project-top-ten/",
+      "type": "reference",
+      "description": "The standard awareness document for the most critical web application security risks (2025 edition).",
+      "level": "beginner",
+      "free": true,
+      "tags": [
+        "owasp"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "owasp-wstg",
+      "name": "OWASP Web Security Testing Guide",
+      "url": "https://owasp.org/www-project-web-security-testing-guide/",
+      "type": "reference",
+      "description": "Comprehensive methodology for testing web applications, organized by test category.",
+      "repo": "OWASP/wstg",
+      "level": "intermediate",
+      "free": true,
+      "tags": [
+        "owasp",
+        "methodology"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "payloadsallthethings",
+      "name": "PayloadsAllTheThings",
+      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+      "type": "reference",
+      "description": "Payloads, bypasses and methodology notes for web application testing and CTFs.",
+      "repo": "swisskyrepo/PayloadsAllTheThings",
+      "level": "intermediate",
+      "tags": [
+        "payloads",
+        "cheatsheet"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "seclists",
+      "name": "SecLists",
+      "url": "https://github.com/danielmiessler/SecLists",
+      "type": "reference",
+      "description": "The standard collection of wordlists for discovery, fuzzing, usernames and passwords.",
+      "repo": "danielmiessler/SecLists",
+      "level": "beginner",
+      "tags": [
+        "wordlists"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "sqlmap",
+      "name": "sqlmap",
+      "url": "https://sqlmap.org/",
+      "type": "tool",
+      "description": "Automates detecting and exploiting SQL injection flaws in applications you are authorized to test.",
+      "repo": "sqlmapproject/sqlmap",
+      "level": "intermediate",
+      "free": true,
+      "tags": [
+        "sql-injection"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "zap",
+      "name": "ZAP",
+      "url": "https://www.zaproxy.org/",
+      "type": "tool",
+      "description": "Open source web app scanner and intercepting proxy for finding vulnerabilities during development and testing.",
+      "repo": "zaproxy/zaproxy",
+      "level": "beginner",
+      "free": true,
+      "tags": [
+        "proxy",
+        "scanner"
+      ],
+      "added": "2026-11-01"
+    }
+  ]
+}

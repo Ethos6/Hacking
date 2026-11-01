@@ -1,0 +1,62 @@
+{
+  "category": "AI security",
+  "description": "Security of machine learning systems and LLM applications.",
+  "resources": [
+    {
+      "id": "awesome-ai-security",
+      "name": "Awesome AI Security",
+      "url": "https://github.com/DeepSpaceHarbor/Awesome-AI-Security",
+      "type": "list",
+      "description": "Research, tools and resources on the security of AI systems.",
+      "repo": "DeepSpaceHarbor/Awesome-AI-Security",
+      "level": "intermediate",
+      "tags": [
+        "ml"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-prompt-injection",
+      "name": "Awesome Prompt Injection",
+      "url": "https://github.com/Joe-B-Security/awesome-prompt-injection",
+      "type": "list",
+      "description": "Learning resources and tools on prompt injection in LLM applications.",
+      "repo": "Joe-B-Security/awesome-prompt-injection",
+      "level": "beginner",
+      "tags": [
+        "llm",
+        "prompt-injection"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-rl-cybersecurity",
+      "name": "Awesome RL for Cybersecurity",
+      "url": "https://github.com/Kim-Hammar/awesome-rl-for-cybersecurity",
+      "type": "list",
+      "description": "Research on reinforcement learning applied to cyber attack and defense.",
+      "repo": "Kim-Hammar/awesome-rl-for-cybersecurity",
+      "level": "advanced",
+      "tags": [
+        "reinforcement-learning",
+        "research"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "garak",
+      "name": "garak",
+      "url": "https://github.com/NVIDIA/garak",
+      "type": "tool",
+      "description": "LLM vulnerability scanner that probes models for jailbreaks, prompt injection, leakage and more.",
+      "repo": "NVIDIA/garak",
+      "level": "intermediate",
+      "free": true,
+      "tags": [
+        "llm",
+        "scanner"
+      ],
+      "added": "2026-11-01"
+    }
+  ]
+}

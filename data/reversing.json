@@ -1,0 +1,164 @@
+{
+  "category": "Reverse engineering and malware analysis",
+  "description": "Disassemblers, debuggers, instrumentation and analysis references.",
+  "resources": [
+    {
+      "id": "awesome-executable-packing",
+      "name": "Awesome Executable Packing",
+      "url": "https://github.com/packing-box/awesome-executable-packing",
+      "type": "list",
+      "description": "Research, tools and datasets on executable packing and unpacking.",
+      "repo": "packing-box/awesome-executable-packing",
+      "level": "advanced",
+      "tags": [
+        "packers"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-malware-persistence",
+      "name": "Awesome Malware Persistence",
+      "url": "https://github.com/Karneades/awesome-malware-persistence",
+      "type": "list",
+      "description": "Techniques malware uses to persist, with detection resources.",
+      "repo": "Karneades/awesome-malware-persistence",
+      "level": "advanced",
+      "tags": [
+        "persistence",
+        "detection"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-reversing",
+      "name": "Awesome Reversing",
+      "url": "https://github.com/HACKE-RC/awesome-reversing",
+      "type": "list",
+      "description": "Reverse engineering courses, books, tools and practice targets.",
+      "repo": "HACKE-RC/awesome-reversing",
+      "level": "intermediate",
+      "tags": [
+        "learning"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-yara",
+      "name": "Awesome YARA",
+      "url": "https://github.com/pedramamini/awesome-yara",
+      "type": "list",
+      "description": "YARA rules, tools and people to follow.",
+      "repo": "pedramamini/awesome-yara",
+      "level": "intermediate",
+      "tags": [
+        "rules"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "capa",
+      "name": "capa",
+      "url": "https://github.com/mandiant/capa",
+      "type": "tool",
+      "description": "Identifies capabilities in executables, such as 'communicates over HTTP' or 'encrypts data'.",
+      "repo": "mandiant/capa",
+      "level": "intermediate",
+      "free": true,
+      "tags": [
+        "malware-analysis",
+        "triage"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "cutter",
+      "name": "Cutter",
+      "url": "https://cutter.re/",
+      "type": "tool",
+      "description": "Free reverse engineering GUI powered by the Rizin framework.",
+      "repo": "rizinorg/cutter",
+      "level": "intermediate",
+      "free": true,
+      "tags": [
+        "disassembler",
+        "gui"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "frida",
+      "name": "Frida",
+      "url": "https://frida.re/",
+      "type": "tool",
+      "description": "Dynamic instrumentation toolkit for hooking functions in running processes on desktop and mobile.",
+      "repo": "frida/frida",
+      "level": "intermediate",
+      "free": true,
+      "tags": [
+        "instrumentation",
+        "mobile"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "url": "https://ghidra-sre.org/",
+      "type": "tool",
+      "description": "Software reverse engineering suite from the NSA with a disassembler, decompiler and scripting.",
+      "repo": "NationalSecurityAgency/ghidra",
+      "level": "intermediate",
+      "free": true,
+      "tags": [
+        "decompiler",
+        "disassembler"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "radare2",
+      "name": "radare2",
+      "url": "https://www.radare.org/",
+      "type": "tool",
+      "description": "Scriptable command-line framework for reverse engineering and binary analysis.",
+      "repo": "radareorg/radare2",
+      "level": "advanced",
+      "free": true,
+      "tags": [
+        "disassembler",
+        "cli"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "x64dbg",
+      "name": "x64dbg",
+      "url": "https://x64dbg.com/",
+      "type": "tool",
+      "description": "Open source x64/x32 debugger for Windows.",
+      "repo": "x64dbg/x64dbg",
+      "level": "intermediate",
+      "free": true,
+      "tags": [
+        "debugger",
+        "windows"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "yara",
+      "name": "YARA",
+      "url": "https://virustotal.github.io/yara/",
+      "type": "tool",
+      "description": "Pattern-matching tool for identifying and classifying malware samples.",
+      "repo": "VirusTotal/yara",
+      "level": "intermediate",
+      "free": true,
+      "tags": [
+        "malware-analysis",
+        "rules"
+      ],
+      "added": "2026-11-01"
+    }
+  ]
+}

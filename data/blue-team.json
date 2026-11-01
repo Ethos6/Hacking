@@ -1,0 +1,228 @@
+{
+  "category": "Detection, forensics and incident response",
+  "description": "DFIR tooling, detection rules, threat hunting and adversary emulation.",
+  "resources": [
+    {
+      "id": "atomic-red-team",
+      "name": "Atomic Red Team",
+      "url": "https://atomicredteam.io/",
+      "type": "tool",
+      "description": "Small, portable tests mapped to ATT&CK for validating your detections.",
+      "repo": "redcanaryco/atomic-red-team",
+      "level": "intermediate",
+      "free": true,
+      "tags": [
+        "adversary-emulation",
+        "detection"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "autopsy",
+      "name": "Autopsy",
+      "url": "https://www.autopsy.com/",
+      "type": "tool",
+      "description": "Digital forensics platform and GUI for The Sleuth Kit.",
+      "repo": "sleuthkit/autopsy",
+      "level": "intermediate",
+      "free": true,
+      "tags": [
+        "disk-forensics"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-detection-engineering",
+      "name": "Awesome Detection Engineering",
+      "url": "https://github.com/infosecB/awesome-detection-engineering",
+      "type": "list",
+      "description": "Resources for building and maintaining detections.",
+      "repo": "infosecB/awesome-detection-engineering",
+      "level": "intermediate",
+      "tags": [
+        "detection"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-forensics",
+      "name": "Awesome Forensics",
+      "url": "https://github.com/Cugu/awesome-forensics",
+      "type": "list",
+      "description": "Forensic analysis tools and learning resources.",
+      "repo": "Cugu/awesome-forensics",
+      "level": "intermediate",
+      "tags": [
+        "forensics"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-honeypots",
+      "name": "Awesome Honeypots",
+      "url": "https://github.com/paralax/awesome-honeypots",
+      "type": "list",
+      "description": "Honeypots, deception tools and related components.",
+      "repo": "paralax/awesome-honeypots",
+      "level": "intermediate",
+      "tags": [
+        "deception"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-incident-response",
+      "name": "Awesome Incident Response",
+      "url": "https://github.com/meirwah/awesome-incident-response",
+      "type": "list",
+      "description": "Tools and resources for incident response teams.",
+      "repo": "meirwah/awesome-incident-response",
+      "level": "intermediate",
+      "tags": [
+        "dfir"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-iocs",
+      "name": "Awesome IOCs",
+      "url": "https://github.com/sroberts/awesome-iocs",
+      "type": "list",
+      "description": "Sources of indicators of compromise.",
+      "repo": "sroberts/awesome-iocs",
+      "level": "intermediate",
+      "tags": [
+        "iocs"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "awesome-threat-intelligence",
+      "name": "Awesome Threat Intelligence",
+      "url": "https://github.com/hslatman/awesome-threat-intelligence",
+      "type": "list",
+      "description": "Threat intelligence sources, formats, frameworks and tools.",
+      "repo": "hslatman/awesome-threat-intelligence",
+      "level": "intermediate",
+      "tags": [
+        "threat-intelligence"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "caldera",
+      "name": "Caldera",
+      "url": "https://github.com/apache/caldera",
+      "type": "tool",
+      "description": "Automated adversary emulation platform for testing defenses, originally from MITRE.",
+      "repo": "apache/caldera",
+      "level": "advanced",
+      "free": true,
+      "tags": [
+        "adversary-emulation"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "mitre-attack",
+      "name": "MITRE ATT&CK",
+      "url": "https://attack.mitre.org/",
+      "type": "reference",
+      "description": "Free knowledge base of adversary tactics and techniques based on real-world observations.",
+      "level": "beginner",
+      "free": true,
+      "tags": [
+        "framework",
+        "threat-intelligence"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "osquery",
+      "name": "osquery",
+      "url": "https://osquery.io/",
+      "type": "tool",
+      "description": "Query your operating system like a database with SQL for monitoring and investigations.",
+      "repo": "osquery/osquery",
+      "level": "intermediate",
+      "free": true,
+      "tags": [
+        "endpoint",
+        "sql"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "plaso",
+      "name": "Plaso",
+      "url": "https://plaso.readthedocs.io/",
+      "type": "tool",
+      "description": "Builds super-timelines from many forensic artifact types.",
+      "repo": "log2timeline/plaso",
+      "level": "advanced",
+      "free": true,
+      "tags": [
+        "timeline",
+        "forensics"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "sigma",
+      "name": "Sigma",
+      "url": "https://github.com/SigmaHQ/sigma",
+      "type": "reference",
+      "description": "Generic, shareable detection rule format with thousands of community rules for SIEMs.",
+      "repo": "SigmaHQ/sigma",
+      "level": "intermediate",
+      "free": true,
+      "tags": [
+        "detection",
+        "siem"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "threathunter-playbook",
+      "name": "ThreatHunter-Playbook",
+      "url": "https://github.com/OTRF/ThreatHunter-Playbook",
+      "type": "reference",
+      "description": "Community threat hunting playbooks with detection logic and datasets.",
+      "repo": "OTRF/ThreatHunter-Playbook",
+      "level": "intermediate",
+      "tags": [
+        "threat-hunting"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "velociraptor",
+      "name": "Velociraptor",
+      "url": "https://docs.velociraptor.app/",
+      "type": "tool",
+      "description": "Endpoint visibility and DFIR tool for collecting and hunting across many machines.",
+      "repo": "Velocidex/velociraptor",
+      "level": "intermediate",
+      "free": true,
+      "tags": [
+        "dfir",
+        "endpoint"
+      ],
+      "added": "2026-11-01"
+    },
+    {
+      "id": "volatility3",
+      "name": "Volatility 3",
+      "url": "https://github.com/volatilityfoundation/volatility3",
+      "type": "tool",
+      "description": "Memory forensics framework for extracting artifacts from RAM captures.",
+      "repo": "volatilityfoundation/volatility3",
+      "level": "advanced",
+      "free": true,
+      "tags": [
+        "memory-forensics"
+      ],
+      "added": "2026-11-01"
+    }
+  ]
+}
