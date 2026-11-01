@@ -59,21 +59,21 @@ Not sure where to begin? Pick a path. Each one is an ordered route through the r
 
 Free courses, wargames and hands-on platforms. Start here.
 
-| Resource | Type | Level | What it is | Health |
-| :-- | :-- | :-- | :-- | :-- |
-| [**Awesome Cyber Security University**](https://github.com/brootware/awesome-cyber-security-university) | List | Beginner | A self-study curriculum of free resources, ordered from introduction to purple teaming. | 🟢 ★ 3.7k · Oct 2026 |
-| [**Awesome Cyber Skills**](https://github.com/joe-shenouda/awesome-cyber-skills) | List | Beginner | Legal places to practice hacking skills: challenge sites, vulnerable apps and wargames. | 🟢 ★ 4.8k · Sep 2026 |
-| [**CryptoHack**](https://cryptohack.org/) | Course | Intermediate | Free platform for learning modern cryptography by breaking flawed implementations of RSA, AES, elliptic curves and more. | Free |
-| [**CTF Wiki**](https://ctf-wiki.org/) | Reference | Beginner | Community knowledge base covering CTF categories: web, crypto, reverse engineering, pwn and misc. | 🟢 ★ 9.7k · Aug 2026 |
-| [**CTFtime**](https://ctftime.org/) | Platform | All | Calendar of upcoming capture-the-flag events, team rankings and an archive of challenge writeups. | — |
-| [**Exploit Education**](https://exploit.education/) | Lab | Intermediate | Downloadable VMs for learning exploitation: Nebula (Linux privilege escalation), Phoenix (memory corruption) and Fusion (advanced). | — |
-| [**Hack The Box**](https://www.hackthebox.com/) | Platform | Intermediate | Hacking labs and machines. The free plan includes Starting Point tiers 0-2 and retired machines in Guided Mode.<br><sub>Free plan with limits; paid plans unlock more.</sub> | — |
-| [**Hacker101**](https://www.hacker101.com/) | Course | Beginner | HackerOne's free web security class with videos and CTF-style exercises for aspiring bug bounty hunters. | 🟡 ★ 15k · Feb 2025 |
-| [**OverTheWire**](https://overthewire.org/wargames/) | Platform | Beginner | Classic wargames played over SSH. Start with Bandit for Linux basics, then move on to web (Natas) and binary games. | — |
-| [**picoCTF (CyLab Security Academy)**](https://picoctf.org/) | Course | Beginner | Carnegie Mellon University's free learning platform, home of the picoCTF beginner competition. | Free |
-| [**pwn.college**](https://pwn.college/) | Course | Beginner | Arizona State University's free, hands-on 'dojo' that teaches core security skills from the terminal up to binary exploitation. | Free |
-| [**TryHackMe**](https://tryhackme.com/) | Platform | Beginner | Guided rooms and learning paths in the browser. The free plan includes free rooms and a 1-hour daily AttackBox.<br><sub>Free plan with limits; paid plans unlock all paths.</sub> | — |
-| [**Web Security Academy**](https://portswigger.net/web-security) | Course | Beginner | Free interactive web security training from PortSwigger with hands-on labs for SQL injection, XSS, SSRF, access control and more. | Free |
+| Resource | What it is | Health |
+| :-- | :-- | :-- |
+| [**Awesome Cyber Security University**](https://github.com/brootware/awesome-cyber-security-university)<br><sub>List · Beginner</sub> | A self-study curriculum of free resources, ordered from introduction to purple teaming. | 🟢 ★ 3.7k<br><sub>Oct 2026</sub> |
+| [**Awesome Cyber Skills**](https://github.com/joe-shenouda/awesome-cyber-skills)<br><sub>List · Beginner</sub> | Legal places to practice hacking skills: challenge sites, vulnerable apps and wargames. | 🟢 ★ 4.8k<br><sub>Sep 2026</sub> |
+| [**CryptoHack**](https://cryptohack.org/)<br><sub>Course · Intermediate</sub> | Free platform for learning modern cryptography by breaking flawed implementations of RSA, AES, elliptic curves and more. | Free |
+| [**CTF Wiki**](https://ctf-wiki.org/)<br><sub>Reference · Beginner</sub> | Community knowledge base covering CTF categories: web, crypto, reverse engineering, pwn and misc. | 🟢 ★ 9.7k<br><sub>Aug 2026</sub> |
+| [**CTFtime**](https://ctftime.org/)<br><sub>Platform · All levels</sub> | Calendar of upcoming capture-the-flag events, team rankings and an archive of challenge writeups. | — |
+| [**Exploit Education**](https://exploit.education/)<br><sub>Lab · Intermediate</sub> | Downloadable VMs for learning exploitation: Nebula (Linux privilege escalation), Phoenix (memory corruption) and Fusion (advanced). | — |
+| [**Hack The Box**](https://www.hackthebox.com/)<br><sub>Platform · Intermediate</sub> | Hacking labs and machines. The free plan includes Starting Point tiers 0-2 and retired machines in Guided Mode.<br><sub>Free plan with limits; paid plans unlock more.</sub> | — |
+| [**Hacker101**](https://www.hacker101.com/)<br><sub>Course · Beginner</sub> | HackerOne's free web security class with videos and CTF-style exercises for aspiring bug bounty hunters. | 🟡 ★ 15k<br><sub>Feb 2025</sub> |
+| [**OverTheWire**](https://overthewire.org/wargames/)<br><sub>Platform · Beginner</sub> | Classic wargames played over SSH. Start with Bandit for Linux basics, then move on to web (Natas) and binary games. | — |
+| [**picoCTF (CyLab Security Academy)**](https://picoctf.org/)<br><sub>Course · Beginner</sub> | Carnegie Mellon University's free learning platform, home of the picoCTF beginner competition. | Free |
+| [**pwn.college**](https://pwn.college/)<br><sub>Course · Beginner</sub> | Arizona State University's free, hands-on 'dojo' that teaches core security skills from the terminal up to binary exploitation. | Free |
+| [**TryHackMe**](https://tryhackme.com/)<br><sub>Platform · Beginner</sub> | Guided rooms and learning paths in the browser. The free plan includes free rooms and a 1-hour daily AttackBox.<br><sub>Free plan with limits; paid plans unlock all paths.</sub> | — |
+| [**Web Security Academy**](https://portswigger.net/web-security)<br><sub>Course · Beginner</sub> | Free interactive web security training from PortSwigger with hands-on labs for SQL injection, XSS, SSRF, access control and more. | Free |
 
 <div align="right"><a href="#contents">↑ back to contents</a></div>
 
@@ -81,13 +81,13 @@ Free courses, wargames and hands-on platforms. Start here.
 
 Deliberately vulnerable apps and environments to practice on legally, on your own machine.
 
-| Resource | Type | Level | What it is | Health |
-| :-- | :-- | :-- | :-- | :-- |
-| [**DVWA**](https://github.com/digininja/DVWA) | Lab | Beginner | Damn Vulnerable Web Application: a classic PHP/MySQL app with adjustable difficulty for practicing common web flaws. | 🟢 ★ 14k · Oct 2026 |
-| [**GOAD (Game of Active Directory)**](https://github.com/Orange-Cyberdefense/GOAD) | Lab | Advanced | Builds a vulnerable multi-domain Active Directory lab to practice AD attack and defense techniques. | 🟢 ★ 8.6k · Oct 2026 |
-| [**OWASP Juice Shop**](https://owasp.org/www-project-juice-shop/) | Lab | Beginner | A modern, intentionally insecure web shop with 100+ challenges covering the OWASP Top 10 and beyond. | 🟢 ★ 14k · Oct 2026 |
-| [**OWASP WebGoat**](https://owasp.org/www-project-webgoat/) | Lab | Beginner | Lessons plus a deliberately insecure Java application that explains each vulnerability as you exploit it. | 🟢 ★ 9.4k · Oct 2026 |
-| [**Vulhub**](https://vulhub.org/) | Lab | Intermediate | Ready-made Docker Compose environments that reproduce real-world vulnerabilities for study. | 🟢 ★ 21k · Oct 2026 |
+| Resource | What it is | Health |
+| :-- | :-- | :-- |
+| [**DVWA**](https://github.com/digininja/DVWA)<br><sub>Lab · Beginner</sub> | Damn Vulnerable Web Application: a classic PHP/MySQL app with adjustable difficulty for practicing common web flaws. | 🟢 ★ 14k<br><sub>Oct 2026</sub> |
+| [**GOAD (Game of Active Directory)**](https://github.com/Orange-Cyberdefense/GOAD)<br><sub>Lab · Advanced</sub> | Builds a vulnerable multi-domain Active Directory lab to practice AD attack and defense techniques. | 🟢 ★ 8.6k<br><sub>Oct 2026</sub> |
+| [**OWASP Juice Shop**](https://owasp.org/www-project-juice-shop/)<br><sub>Lab · Beginner</sub> | A modern, intentionally insecure web shop with 100+ challenges covering the OWASP Top 10 and beyond. | 🟢 ★ 14k<br><sub>Oct 2026</sub> |
+| [**OWASP WebGoat**](https://owasp.org/www-project-webgoat/)<br><sub>Lab · Beginner</sub> | Lessons plus a deliberately insecure Java application that explains each vulnerability as you exploit it. | 🟢 ★ 9.4k<br><sub>Oct 2026</sub> |
+| [**Vulhub**](https://vulhub.org/)<br><sub>Lab · Intermediate</sub> | Ready-made Docker Compose environments that reproduce real-world vulnerabilities for study. | 🟢 ★ 21k<br><sub>Oct 2026</sub> |
 
 <div align="right"><a href="#contents">↑ back to contents</a></div>
 
@@ -95,23 +95,23 @@ Deliberately vulnerable apps and environments to practice on legally, on your ow
 
 Testing guides, checklists, scanners and payload references for web apps and APIs.
 
-| Resource | Type | Level | What it is | Health |
-| :-- | :-- | :-- | :-- | :-- |
-| [**API Security Checklist**](https://github.com/shieldfy/API-Security-Checklist) | Reference | Beginner | Short checklist of countermeasures for designing, testing and releasing APIs. | 🟢 ★ 23k · Jul 2026 |
-| [**Awesome AppSec**](https://github.com/paragonie/awesome-appsec) | List | Beginner | Resources for developers learning to build secure applications. | 🟡 ★ 7.1k · Feb 2025 |
-| [**Awesome Node.js Security**](https://github.com/lirantal/awesome-nodejs-security) | List | Intermediate | Node.js security tools, educational material, companies and talks. | 🟢 ★ 3.1k · Oct 2026 |
-| [**Awesome Web Hacking**](https://github.com/infoslack/awesome-web-hacking) | List | Beginner | Books, documentation, tools and labs for web application penetration testing. | 🟢 ★ 7.3k · Oct 2026 |
-| [**Awesome Web Security**](https://github.com/qazbnm456/awesome-web-security) | List | Intermediate | Curated web security materials: XSS, SQLi, SSRF, deserialization, browser exploitation and more. | 🟢 ★ 14k · Sep 2026 |
-| [**ffuf**](https://github.com/ffuf/ffuf) | Tool | Intermediate | Fast web fuzzer for content discovery, virtual hosts and parameter fuzzing. | 🟢 ★ 17k · Sep 2026 |
-| [**Gobuster**](https://github.com/OJ/gobuster) | Tool | Beginner | Brute-forces directories, DNS subdomains, virtual hosts and cloud buckets. | 🔵 ★ 14k · Jan 2026 |
-| [**Nuclei**](https://github.com/projectdiscovery/nuclei) | Tool | Intermediate | Template-based vulnerability scanner with a large community library of checks. | 🟢 ★ 33k · Oct 2026 |
-| [**OWASP ASVS**](https://owasp.org/www-project-application-security-verification-standard/) | Reference | Intermediate | Application Security Verification Standard: testable security requirements for designing and verifying apps. | 🟢 ★ 3.7k · Oct 2026 |
-| [**OWASP Top 10**](https://owasp.org/www-project-top-ten/) | Reference | Beginner | The standard awareness document for the most critical web application security risks (2025 edition). | Free |
-| [**OWASP Web Security Testing Guide**](https://owasp.org/www-project-web-security-testing-guide/) | Reference | Intermediate | Comprehensive methodology for testing web applications, organized by test category. | 🟢 ★ 10k · Oct 2026 |
-| [**PayloadsAllTheThings**](https://github.com/swisskyrepo/PayloadsAllTheThings) | Reference | Intermediate | Payloads, bypasses and methodology notes for web application testing and CTFs. | 🟢 ★ 82k · Oct 2026 |
-| [**SecLists**](https://github.com/danielmiessler/SecLists) | Reference | Beginner | The standard collection of wordlists for discovery, fuzzing, usernames and passwords. | 🟢 ★ 74k · Nov 2026 |
-| [**sqlmap**](https://sqlmap.org/) | Tool | Intermediate | Automates detecting and exploiting SQL injection flaws in applications you are authorized to test. | 🟢 ★ 39k · Oct 2026 |
-| [**ZAP**](https://www.zaproxy.org/) | Tool | Beginner | Open source web app scanner and intercepting proxy for finding vulnerabilities during development and testing. | 🟢 ★ 16k · Nov 2026 |
+| Resource | What it is | Health |
+| :-- | :-- | :-- |
+| [**API Security Checklist**](https://github.com/shieldfy/API-Security-Checklist)<br><sub>Reference · Beginner</sub> | Short checklist of countermeasures for designing, testing and releasing APIs. | 🟢 ★ 23k<br><sub>Jul 2026</sub> |
+| [**Awesome AppSec**](https://github.com/paragonie/awesome-appsec)<br><sub>List · Beginner</sub> | Resources for developers learning to build secure applications. | 🟡 ★ 7.1k<br><sub>Feb 2025</sub> |
+| [**Awesome Node.js Security**](https://github.com/lirantal/awesome-nodejs-security)<br><sub>List · Intermediate</sub> | Node.js security tools, educational material, companies and talks. | 🟢 ★ 3.1k<br><sub>Oct 2026</sub> |
+| [**Awesome Web Hacking**](https://github.com/infoslack/awesome-web-hacking)<br><sub>List · Beginner</sub> | Books, documentation, tools and labs for web application penetration testing. | 🟢 ★ 7.3k<br><sub>Oct 2026</sub> |
+| [**Awesome Web Security**](https://github.com/qazbnm456/awesome-web-security)<br><sub>List · Intermediate</sub> | Curated web security materials: XSS, SQLi, SSRF, deserialization, browser exploitation and more. | 🟢 ★ 14k<br><sub>Sep 2026</sub> |
+| [**ffuf**](https://github.com/ffuf/ffuf)<br><sub>Tool · Intermediate</sub> | Fast web fuzzer for content discovery, virtual hosts and parameter fuzzing. | 🟢 ★ 17k<br><sub>Sep 2026</sub> |
+| [**Gobuster**](https://github.com/OJ/gobuster)<br><sub>Tool · Beginner</sub> | Brute-forces directories, DNS subdomains, virtual hosts and cloud buckets. | 🔵 ★ 14k<br><sub>Jan 2026</sub> |
+| [**Nuclei**](https://github.com/projectdiscovery/nuclei)<br><sub>Tool · Intermediate</sub> | Template-based vulnerability scanner with a large community library of checks. | 🟢 ★ 33k<br><sub>Oct 2026</sub> |
+| [**OWASP ASVS**](https://owasp.org/www-project-application-security-verification-standard/)<br><sub>Reference · Intermediate</sub> | Application Security Verification Standard: testable security requirements for designing and verifying apps. | 🟢 ★ 3.7k<br><sub>Oct 2026</sub> |
+| [**OWASP Top 10**](https://owasp.org/www-project-top-ten/)<br><sub>Reference · Beginner</sub> | The standard awareness document for the most critical web application security risks (2025 edition). | Free |
+| [**OWASP Web Security Testing Guide**](https://owasp.org/www-project-web-security-testing-guide/)<br><sub>Reference · Intermediate</sub> | Comprehensive methodology for testing web applications, organized by test category. | 🟢 ★ 10k<br><sub>Oct 2026</sub> |
+| [**PayloadsAllTheThings**](https://github.com/swisskyrepo/PayloadsAllTheThings)<br><sub>Reference · Intermediate</sub> | Payloads, bypasses and methodology notes for web application testing and CTFs. | 🟢 ★ 82k<br><sub>Oct 2026</sub> |
+| [**SecLists**](https://github.com/danielmiessler/SecLists)<br><sub>Reference · Beginner</sub> | The standard collection of wordlists for discovery, fuzzing, usernames and passwords. | 🟢 ★ 74k<br><sub>Nov 2026</sub> |
+| [**sqlmap**](https://sqlmap.org/)<br><sub>Tool · Intermediate</sub> | Automates detecting and exploiting SQL injection flaws in applications you are authorized to test. | 🟢 ★ 39k<br><sub>Oct 2026</sub> |
+| [**ZAP**](https://www.zaproxy.org/)<br><sub>Tool · Beginner</sub> | Open source web app scanner and intercepting proxy for finding vulnerabilities during development and testing. | 🟢 ★ 16k<br><sub>Nov 2026</sub> |
 
 <div align="right"><a href="#contents">↑ back to contents</a></div>
 
@@ -119,16 +119,16 @@ Testing guides, checklists, scanners and payload references for web apps and API
 
 Asset discovery, port scanning and open-source intelligence.
 
-| Resource | Type | Level | What it is | Health |
-| :-- | :-- | :-- | :-- | :-- |
-| [**Awesome Asset Discovery**](https://github.com/redhuntlabs/Awesome-Asset-Discovery) | List | Intermediate | Resources for the asset discovery phase of a security assessment. | 🟡 ★ 2.9k · Jan 2025 |
-| [**Awesome OSINT**](https://github.com/jivoi/awesome-osint) | List | Beginner | Large collection of open-source intelligence tools and resources, organized by data source. | 🟢 ★ 31k · Oct 2026 |
-| [**httpx**](https://github.com/projectdiscovery/httpx) | Tool | Beginner | Fast HTTP probing toolkit to find live hosts and collect titles, status codes and technologies. | 🟢 ★ 11k · Oct 2026 |
-| [**masscan**](https://github.com/robertdavidgraham/masscan) | Tool | Intermediate | Very fast asynchronous port scanner for large address ranges. | 🟢 ★ 26k · Oct 2026 |
-| [**Nmap**](https://nmap.org/) | Tool | Beginner | The network mapper: host discovery, port scanning, service and OS detection, plus the NSE scripting engine. | 🟢 ★ 14k · Oct 2026 |
-| [**OWASP Amass**](https://github.com/owasp-amass/amass) | Tool | Intermediate | In-depth attack surface mapping and external asset discovery. | 🟢 ★ 15k · Oct 2026 |
-| [**RustScan**](https://github.com/bee-san/RustScan) | Tool | Beginner | Fast port scanner that finds open ports quickly and can hand results to Nmap. | 🟢 ★ 21k · Oct 2026 |
-| [**subfinder**](https://github.com/projectdiscovery/subfinder) | Tool | Beginner | Passive subdomain discovery using many online sources. | 🟢 ★ 15k · Oct 2026 |
+| Resource | What it is | Health |
+| :-- | :-- | :-- |
+| [**Awesome Asset Discovery**](https://github.com/redhuntlabs/Awesome-Asset-Discovery)<br><sub>List · Intermediate</sub> | Resources for the asset discovery phase of a security assessment. | 🟡 ★ 2.9k<br><sub>Jan 2025</sub> |
+| [**Awesome OSINT**](https://github.com/jivoi/awesome-osint)<br><sub>List · Beginner</sub> | Large collection of open-source intelligence tools and resources, organized by data source. | 🟢 ★ 31k<br><sub>Oct 2026</sub> |
+| [**httpx**](https://github.com/projectdiscovery/httpx)<br><sub>Tool · Beginner</sub> | Fast HTTP probing toolkit to find live hosts and collect titles, status codes and technologies. | 🟢 ★ 11k<br><sub>Oct 2026</sub> |
+| [**masscan**](https://github.com/robertdavidgraham/masscan)<br><sub>Tool · Intermediate</sub> | Very fast asynchronous port scanner for large address ranges. | 🟢 ★ 26k<br><sub>Oct 2026</sub> |
+| [**Nmap**](https://nmap.org/)<br><sub>Tool · Beginner</sub> | The network mapper: host discovery, port scanning, service and OS detection, plus the NSE scripting engine. | 🟢 ★ 14k<br><sub>Oct 2026</sub> |
+| [**OWASP Amass**](https://github.com/owasp-amass/amass)<br><sub>Tool · Intermediate</sub> | In-depth attack surface mapping and external asset discovery. | 🟢 ★ 15k<br><sub>Oct 2026</sub> |
+| [**RustScan**](https://github.com/bee-san/RustScan)<br><sub>Tool · Beginner</sub> | Fast port scanner that finds open ports quickly and can hand results to Nmap. | 🟢 ★ 21k<br><sub>Oct 2026</sub> |
+| [**subfinder**](https://github.com/projectdiscovery/subfinder)<br><sub>Tool · Beginner</sub> | Passive subdomain discovery using many online sources. | 🟢 ★ 15k<br><sub>Oct 2026</sub> |
 
 <div align="right"><a href="#contents">↑ back to contents</a></div>
 
@@ -136,15 +136,15 @@ Asset discovery, port scanning and open-source intelligence.
 
 Packet analysis, network monitoring and Windows/AD assessment.
 
-| Resource | Type | Level | What it is | Health |
-| :-- | :-- | :-- | :-- | :-- |
-| [**Awesome PCAP Tools**](https://github.com/caesar0301/awesome-pcaptools) | List | Intermediate | Tools for processing and analyzing network traffic captures. | 🔵 ★ 3.4k · Sep 2025 |
-| [**Awesome Suricata**](https://github.com/satta/awesome-suricata) | List | Intermediate | Rules, tools, dashboards and documentation for Suricata. | 🟢 ★ 247 · Aug 2026 |
-| [**BloodHound**](https://github.com/SpecterOps/BloodHound) | Tool | Intermediate | Maps relationships in Active Directory and Entra ID to reveal attack paths so defenders can remove them. | 🟢 ★ 3.5k · Oct 2026 |
-| [**Impacket**](https://github.com/fortra/impacket) | Tool | Advanced | Python classes and example scripts for working with network protocols such as SMB, Kerberos and MSRPC. | 🟢 ★ 16k · Oct 2026 |
-| [**Suricata**](https://suricata.io/) | Tool | Intermediate | High-performance IDS/IPS and network security monitoring engine. | 🟢 ★ 6.8k · Oct 2026 |
-| [**Wireshark**](https://www.wireshark.org/) | Tool | Beginner | The standard network protocol analyzer for capturing and inspecting traffic. | 🟢 ★ 10k · Nov 2026 |
-| [**Zeek**](https://zeek.org/) | Tool | Intermediate | Network security monitoring platform that turns traffic into rich, structured logs. | 🟢 ★ 8.2k · Oct 2026 |
+| Resource | What it is | Health |
+| :-- | :-- | :-- |
+| [**Awesome PCAP Tools**](https://github.com/caesar0301/awesome-pcaptools)<br><sub>List · Intermediate</sub> | Tools for processing and analyzing network traffic captures. | 🔵 ★ 3.4k<br><sub>Sep 2025</sub> |
+| [**Awesome Suricata**](https://github.com/satta/awesome-suricata)<br><sub>List · Intermediate</sub> | Rules, tools, dashboards and documentation for Suricata. | 🟢 ★ 247<br><sub>Aug 2026</sub> |
+| [**BloodHound**](https://github.com/SpecterOps/BloodHound)<br><sub>Tool · Intermediate</sub> | Maps relationships in Active Directory and Entra ID to reveal attack paths so defenders can remove them. | 🟢 ★ 3.5k<br><sub>Oct 2026</sub> |
+| [**Impacket**](https://github.com/fortra/impacket)<br><sub>Tool · Advanced</sub> | Python classes and example scripts for working with network protocols such as SMB, Kerberos and MSRPC. | 🟢 ★ 16k<br><sub>Oct 2026</sub> |
+| [**Suricata**](https://suricata.io/)<br><sub>Tool · Intermediate</sub> | High-performance IDS/IPS and network security monitoring engine. | 🟢 ★ 6.8k<br><sub>Oct 2026</sub> |
+| [**Wireshark**](https://www.wireshark.org/)<br><sub>Tool · Beginner</sub> | The standard network protocol analyzer for capturing and inspecting traffic. | 🟢 ★ 10k<br><sub>Nov 2026</sub> |
+| [**Zeek**](https://zeek.org/)<br><sub>Tool · Intermediate</sub> | Network security monitoring platform that turns traffic into rich, structured logs. | 🟢 ★ 8.2k<br><sub>Oct 2026</sub> |
 
 <div align="right"><a href="#contents">↑ back to contents</a></div>
 
@@ -152,17 +152,17 @@ Packet analysis, network monitoring and Windows/AD assessment.
 
 Frameworks and references used in authorized penetration tests and CTFs.
 
-| Resource | Type | Level | What it is | Health |
-| :-- | :-- | :-- | :-- | :-- |
-| [**Awesome Bug Bounty**](https://github.com/djadmin/awesome-bug-bounty) | List | Beginner | Bug bounty programs, write-ups and getting-started resources. | 🔵 ★ 6k · Mar 2026 |
-| [**Awesome Penetration Testing**](https://github.com/enaqx/awesome-pentest) | List | Intermediate | Broad collection of penetration testing resources, tools and references. | 🟢 ★ 28k · Jul 2026 |
-| [**GTFOBins**](https://gtfobins.org/) | Reference | Intermediate | Curated list of Unix binaries that can be abused to bypass local security restrictions. | 🟢 ★ 14k · May 2026 |
-| [**Linux Kernel Exploitation**](https://github.com/xairy/linux-kernel-exploitation) | List | Advanced | Links on Linux kernel fuzzing, exploitation techniques and mitigations. | 🟢 ★ 6.7k · Oct 2026 |
-| [**LOLBAS**](https://lolbas-project.github.io/) | Reference | Intermediate | Windows binaries, scripts and libraries that can be misused, documented for attackers and defenders alike. | 🟢 ★ 8.9k · Sep 2026 |
-| [**Metasploit Framework**](https://www.metasploit.com/) | Tool | Intermediate | Widely used framework for developing, testing and running exploits in authorized engagements. | 🟢 ★ 39k · Oct 2026 |
-| [**PEASS-ng**](https://github.com/peass-ng/PEASS-ng) | Tool | Intermediate | linPEAS and winPEAS: scripts that highlight local privilege escalation paths on Linux and Windows. | 🟢 ★ 21k · Nov 2026 |
-| [**pwndbg**](https://github.com/pwndbg/pwndbg) | Tool | Intermediate | GDB and LLDB plugin that makes debugging and exploit development much easier. | 🟢 ★ 11k · Oct 2026 |
-| [**pwntools**](https://github.com/Gallopsled/pwntools) | Tool | Intermediate | Python library for CTF and exploit development: process I/O, ROP chains, shellcraft and more. | 🟢 ★ 14k · Oct 2026 |
+| Resource | What it is | Health |
+| :-- | :-- | :-- |
+| [**Awesome Bug Bounty**](https://github.com/djadmin/awesome-bug-bounty)<br><sub>List · Beginner</sub> | Bug bounty programs, write-ups and getting-started resources. | 🔵 ★ 6k<br><sub>Mar 2026</sub> |
+| [**Awesome Penetration Testing**](https://github.com/enaqx/awesome-pentest)<br><sub>List · Intermediate</sub> | Broad collection of penetration testing resources, tools and references. | 🟢 ★ 28k<br><sub>Jul 2026</sub> |
+| [**GTFOBins**](https://gtfobins.org/)<br><sub>Reference · Intermediate</sub> | Curated list of Unix binaries that can be abused to bypass local security restrictions. | 🟢 ★ 14k<br><sub>May 2026</sub> |
+| [**Linux Kernel Exploitation**](https://github.com/xairy/linux-kernel-exploitation)<br><sub>List · Advanced</sub> | Links on Linux kernel fuzzing, exploitation techniques and mitigations. | 🟢 ★ 6.7k<br><sub>Oct 2026</sub> |
+| [**LOLBAS**](https://lolbas-project.github.io/)<br><sub>Reference · Intermediate</sub> | Windows binaries, scripts and libraries that can be misused, documented for attackers and defenders alike. | 🟢 ★ 8.9k<br><sub>Sep 2026</sub> |
+| [**Metasploit Framework**](https://www.metasploit.com/)<br><sub>Tool · Intermediate</sub> | Widely used framework for developing, testing and running exploits in authorized engagements. | 🟢 ★ 39k<br><sub>Oct 2026</sub> |
+| [**PEASS-ng**](https://github.com/peass-ng/PEASS-ng)<br><sub>Tool · Intermediate</sub> | linPEAS and winPEAS: scripts that highlight local privilege escalation paths on Linux and Windows. | 🟢 ★ 21k<br><sub>Nov 2026</sub> |
+| [**pwndbg**](https://github.com/pwndbg/pwndbg)<br><sub>Tool · Intermediate</sub> | GDB and LLDB plugin that makes debugging and exploit development much easier. | 🟢 ★ 11k<br><sub>Oct 2026</sub> |
+| [**pwntools**](https://github.com/Gallopsled/pwntools)<br><sub>Tool · Intermediate</sub> | Python library for CTF and exploit development: process I/O, ROP chains, shellcraft and more. | 🟢 ★ 14k<br><sub>Oct 2026</sub> |
 
 <div align="right"><a href="#contents">↑ back to contents</a></div>
 
@@ -170,19 +170,19 @@ Frameworks and references used in authorized penetration tests and CTFs.
 
 Disassemblers, debuggers, instrumentation and analysis references.
 
-| Resource | Type | Level | What it is | Health |
-| :-- | :-- | :-- | :-- | :-- |
-| [**Awesome Executable Packing**](https://github.com/packing-box/awesome-executable-packing) | List | Advanced | Research, tools and datasets on executable packing and unpacking. | 🟢 ★ 1.6k · Oct 2026 |
-| [**Awesome Malware Persistence**](https://github.com/Karneades/awesome-malware-persistence) | List | Advanced | Techniques malware uses to persist, with detection resources. | 🟢 ★ 318 · Aug 2026 |
-| [**Awesome Reversing**](https://github.com/HACKE-RC/awesome-reversing) | List | Intermediate | Reverse engineering courses, books, tools and practice targets. | 🟡 ★ 1.5k · Mar 2025 |
-| [**Awesome YARA**](https://github.com/pedramamini/awesome-yara) | List | Intermediate | YARA rules, tools and people to follow. | 🟢 ★ 4.3k · Jun 2026 |
-| [**capa**](https://github.com/mandiant/capa) | Tool | Intermediate | Identifies capabilities in executables, such as 'communicates over HTTP' or 'encrypts data'. | 🟢 ★ 6.3k · Nov 2026 |
-| [**Cutter**](https://cutter.re/) | Tool | Intermediate | Free reverse engineering GUI powered by the Rizin framework. | 🟢 ★ 20k · Sep 2026 |
-| [**Frida**](https://frida.re/) | Tool | Intermediate | Dynamic instrumentation toolkit for hooking functions in running processes on desktop and mobile. | 🟢 ★ 23k · Nov 2026 |
-| [**Ghidra**](https://ghidra-sre.org/) | Tool | Intermediate | Software reverse engineering suite from the NSA with a disassembler, decompiler and scripting. | 🟢 ★ 97k · Oct 2026 |
-| [**radare2**](https://www.radare.org/) | Tool | Advanced | Scriptable command-line framework for reverse engineering and binary analysis. | 🟢 ★ 25k · Nov 2026 |
-| [**x64dbg**](https://x64dbg.com/) | Tool | Intermediate | Open source x64/x32 debugger for Windows. | 🟢 ★ 50k · Oct 2026 |
-| [**YARA**](https://virustotal.github.io/yara/) | Tool | Intermediate | Pattern-matching tool for identifying and classifying malware samples. | 🟢 ★ 10k · Oct 2026 |
+| Resource | What it is | Health |
+| :-- | :-- | :-- |
+| [**Awesome Executable Packing**](https://github.com/packing-box/awesome-executable-packing)<br><sub>List · Advanced</sub> | Research, tools and datasets on executable packing and unpacking. | 🟢 ★ 1.6k<br><sub>Oct 2026</sub> |
+| [**Awesome Malware Persistence**](https://github.com/Karneades/awesome-malware-persistence)<br><sub>List · Advanced</sub> | Techniques malware uses to persist, with detection resources. | 🟢 ★ 318<br><sub>Aug 2026</sub> |
+| [**Awesome Reversing**](https://github.com/HACKE-RC/awesome-reversing)<br><sub>List · Intermediate</sub> | Reverse engineering courses, books, tools and practice targets. | 🟡 ★ 1.5k<br><sub>Mar 2025</sub> |
+| [**Awesome YARA**](https://github.com/pedramamini/awesome-yara)<br><sub>List · Intermediate</sub> | YARA rules, tools and people to follow. | 🟢 ★ 4.3k<br><sub>Jun 2026</sub> |
+| [**capa**](https://github.com/mandiant/capa)<br><sub>Tool · Intermediate</sub> | Identifies capabilities in executables, such as 'communicates over HTTP' or 'encrypts data'. | 🟢 ★ 6.3k<br><sub>Nov 2026</sub> |
+| [**Cutter**](https://cutter.re/)<br><sub>Tool · Intermediate</sub> | Free reverse engineering GUI powered by the Rizin framework. | 🟢 ★ 20k<br><sub>Sep 2026</sub> |
+| [**Frida**](https://frida.re/)<br><sub>Tool · Intermediate</sub> | Dynamic instrumentation toolkit for hooking functions in running processes on desktop and mobile. | 🟢 ★ 23k<br><sub>Nov 2026</sub> |
+| [**Ghidra**](https://ghidra-sre.org/)<br><sub>Tool · Intermediate</sub> | Software reverse engineering suite from the NSA with a disassembler, decompiler and scripting. | 🟢 ★ 97k<br><sub>Oct 2026</sub> |
+| [**radare2**](https://www.radare.org/)<br><sub>Tool · Advanced</sub> | Scriptable command-line framework for reverse engineering and binary analysis. | 🟢 ★ 25k<br><sub>Nov 2026</sub> |
+| [**x64dbg**](https://x64dbg.com/)<br><sub>Tool · Intermediate</sub> | Open source x64/x32 debugger for Windows. | 🟢 ★ 50k<br><sub>Oct 2026</sub> |
+| [**YARA**](https://virustotal.github.io/yara/)<br><sub>Tool · Intermediate</sub> | Pattern-matching tool for identifying and classifying malware samples. | 🟢 ★ 10k<br><sub>Oct 2026</sub> |
 
 <div align="right"><a href="#contents">↑ back to contents</a></div>
 
@@ -190,24 +190,24 @@ Disassemblers, debuggers, instrumentation and analysis references.
 
 DFIR tooling, detection rules, threat hunting and adversary emulation.
 
-| Resource | Type | Level | What it is | Health |
-| :-- | :-- | :-- | :-- | :-- |
-| [**Atomic Red Team**](https://atomicredteam.io/) | Tool | Intermediate | Small, portable tests mapped to ATT&CK for validating your detections. | 🟢 ★ 13k · Oct 2026 |
-| [**Autopsy**](https://www.autopsy.com/) | Tool | Intermediate | Digital forensics platform and GUI for The Sleuth Kit. | 🔵 ★ 3.4k · May 2026 |
-| [**Awesome Detection Engineering**](https://github.com/infosecB/awesome-detection-engineering) | List | Intermediate | Resources for building and maintaining detections. | 🟢 ★ 1.4k · Oct 2026 |
-| [**Awesome Forensics**](https://github.com/Cugu/awesome-forensics) | List | Intermediate | Forensic analysis tools and learning resources. | 🟢 ★ 5.2k · Sep 2026 |
-| [**Awesome Honeypots**](https://github.com/paralax/awesome-honeypots) | List | Intermediate | Honeypots, deception tools and related components. | 🟢 ★ 11k · Jun 2026 |
-| [**Awesome Incident Response**](https://github.com/meirwah/awesome-incident-response) | List | Intermediate | Tools and resources for incident response teams. | 🟢 ★ 9.5k · Oct 2026 |
-| [**Awesome IOCs**](https://github.com/sroberts/awesome-iocs) | List | Intermediate | Sources of indicators of compromise. | 🟢 ★ 1k · Oct 2026 |
-| [**Awesome Threat Intelligence**](https://github.com/hslatman/awesome-threat-intelligence) | List | Intermediate | Threat intelligence sources, formats, frameworks and tools. | 🟢 ★ 11k · Oct 2026 |
-| [**Caldera**](https://github.com/apache/caldera) | Tool | Advanced | Automated adversary emulation platform for testing defenses, originally from MITRE. | 🟢 ★ 7.5k · Aug 2026 |
-| [**MITRE ATT&CK**](https://attack.mitre.org/) | Reference | Beginner | Free knowledge base of adversary tactics and techniques based on real-world observations. | Free |
-| [**osquery**](https://osquery.io/) | Tool | Intermediate | Query your operating system like a database with SQL for monitoring and investigations. | 🟢 ★ 24k · Oct 2026 |
-| [**Plaso**](https://plaso.readthedocs.io/) | Tool | Advanced | Builds super-timelines from many forensic artifact types. | 🟢 ★ 2.2k · Nov 2026 |
-| [**Sigma**](https://github.com/SigmaHQ/sigma) | Reference | Intermediate | Generic, shareable detection rule format with thousands of community rules for SIEMs. | 🟢 ★ 11k · Oct 2026 |
-| [**ThreatHunter-Playbook**](https://github.com/OTRF/ThreatHunter-Playbook) | Reference | Intermediate | Community threat hunting playbooks with detection logic and datasets. | 🔵 ★ 4.7k · Dec 2025 |
-| [**Velociraptor**](https://docs.velociraptor.app/) | Tool | Intermediate | Endpoint visibility and DFIR tool for collecting and hunting across many machines. | 🟢 ★ 4.4k · Oct 2026 |
-| [**Volatility 3**](https://github.com/volatilityfoundation/volatility3) | Tool | Advanced | Memory forensics framework for extracting artifacts from RAM captures. | 🟢 ★ 4.6k · Oct 2026 |
+| Resource | What it is | Health |
+| :-- | :-- | :-- |
+| [**Atomic Red Team**](https://atomicredteam.io/)<br><sub>Tool · Intermediate</sub> | Small, portable tests mapped to ATT&CK for validating your detections. | 🟢 ★ 13k<br><sub>Oct 2026</sub> |
+| [**Autopsy**](https://www.autopsy.com/)<br><sub>Tool · Intermediate</sub> | Digital forensics platform and GUI for The Sleuth Kit. | 🔵 ★ 3.4k<br><sub>May 2026</sub> |
+| [**Awesome Detection Engineering**](https://github.com/infosecB/awesome-detection-engineering)<br><sub>List · Intermediate</sub> | Resources for building and maintaining detections. | 🟢 ★ 1.4k<br><sub>Oct 2026</sub> |
+| [**Awesome Forensics**](https://github.com/Cugu/awesome-forensics)<br><sub>List · Intermediate</sub> | Forensic analysis tools and learning resources. | 🟢 ★ 5.2k<br><sub>Sep 2026</sub> |
+| [**Awesome Honeypots**](https://github.com/paralax/awesome-honeypots)<br><sub>List · Intermediate</sub> | Honeypots, deception tools and related components. | 🟢 ★ 11k<br><sub>Jun 2026</sub> |
+| [**Awesome Incident Response**](https://github.com/meirwah/awesome-incident-response)<br><sub>List · Intermediate</sub> | Tools and resources for incident response teams. | 🟢 ★ 9.5k<br><sub>Oct 2026</sub> |
+| [**Awesome IOCs**](https://github.com/sroberts/awesome-iocs)<br><sub>List · Intermediate</sub> | Sources of indicators of compromise. | 🟢 ★ 1k<br><sub>Oct 2026</sub> |
+| [**Awesome Threat Intelligence**](https://github.com/hslatman/awesome-threat-intelligence)<br><sub>List · Intermediate</sub> | Threat intelligence sources, formats, frameworks and tools. | 🟢 ★ 11k<br><sub>Oct 2026</sub> |
+| [**Caldera**](https://github.com/apache/caldera)<br><sub>Tool · Advanced</sub> | Automated adversary emulation platform for testing defenses, originally from MITRE. | 🟢 ★ 7.5k<br><sub>Aug 2026</sub> |
+| [**MITRE ATT&CK**](https://attack.mitre.org/)<br><sub>Reference · Beginner</sub> | Free knowledge base of adversary tactics and techniques based on real-world observations. | Free |
+| [**osquery**](https://osquery.io/)<br><sub>Tool · Intermediate</sub> | Query your operating system like a database with SQL for monitoring and investigations. | 🟢 ★ 24k<br><sub>Oct 2026</sub> |
+| [**Plaso**](https://plaso.readthedocs.io/)<br><sub>Tool · Advanced</sub> | Builds super-timelines from many forensic artifact types. | 🟢 ★ 2.2k<br><sub>Nov 2026</sub> |
+| [**Sigma**](https://github.com/SigmaHQ/sigma)<br><sub>Reference · Intermediate</sub> | Generic, shareable detection rule format with thousands of community rules for SIEMs. | 🟢 ★ 11k<br><sub>Oct 2026</sub> |
+| [**ThreatHunter-Playbook**](https://github.com/OTRF/ThreatHunter-Playbook)<br><sub>Reference · Intermediate</sub> | Community threat hunting playbooks with detection logic and datasets. | 🔵 ★ 4.7k<br><sub>Dec 2025</sub> |
+| [**Velociraptor**](https://docs.velociraptor.app/)<br><sub>Tool · Intermediate</sub> | Endpoint visibility and DFIR tool for collecting and hunting across many machines. | 🟢 ★ 4.4k<br><sub>Oct 2026</sub> |
+| [**Volatility 3**](https://github.com/volatilityfoundation/volatility3)<br><sub>Tool · Advanced</sub> | Memory forensics framework for extracting artifacts from RAM captures. | 🟢 ★ 4.6k<br><sub>Oct 2026</sub> |
 
 <div align="right"><a href="#contents">↑ back to contents</a></div>
 
@@ -215,16 +215,16 @@ DFIR tooling, detection rules, threat hunting and adversary emulation.
 
 Cloud posture, container and code scanning, secrets detection, CI/CD security.
 
-| Resource | Type | Level | What it is | Health |
-| :-- | :-- | :-- | :-- | :-- |
-| [**Awesome CI/CD Attacks**](https://github.com/TupleType/awesome-cicd-attacks) | List | Advanced | Research on attacking and hardening CI/CD systems and deployment pipelines. | 🟢 ★ 638 · Jun 2026 |
-| [**Gitleaks**](https://github.com/gitleaks/gitleaks) | Tool | Beginner | Detects hardcoded secrets in Git repositories and files. | 🟢 ★ 31k · Oct 2026 |
-| [**OSV-Scanner**](https://github.com/google/osv-scanner) | Tool | Beginner | Finds known vulnerabilities in your dependencies using the OSV database. | 🟢 ★ 11k · Oct 2026 |
-| [**Prowler**](https://github.com/prowler-cloud/prowler) | Tool | Intermediate | Security posture checks for AWS, Azure, GCP and Kubernetes against common benchmarks. | 🟢 ★ 15k · Oct 2026 |
-| [**Semgrep**](https://semgrep.dev/) | Tool | Beginner | Fast static analysis with readable rules for finding bugs and enforcing secure code. | 🟢 ★ 17k · Oct 2026 |
-| [**Static Analysis Tools**](https://analysis-tools.dev/) | List | Beginner | Large directory of static analysis tools and linters for every language. | 🟢 ★ 15k · Oct 2026 |
-| [**Trivy**](https://trivy.dev/) | Tool | Beginner | Scans containers, filesystems, Git repos and IaC for vulnerabilities, misconfigurations and secrets. | 🟢 ★ 39k · Oct 2026 |
-| [**TruffleHog**](https://github.com/trufflesecurity/trufflehog) | Tool | Beginner | Finds and verifies leaked credentials across Git, cloud storage and chat tools. | 🟢 ★ 29k · Oct 2026 |
+| Resource | What it is | Health |
+| :-- | :-- | :-- |
+| [**Awesome CI/CD Attacks**](https://github.com/TupleType/awesome-cicd-attacks)<br><sub>List · Advanced</sub> | Research on attacking and hardening CI/CD systems and deployment pipelines. | 🟢 ★ 638<br><sub>Jun 2026</sub> |
+| [**Gitleaks**](https://github.com/gitleaks/gitleaks)<br><sub>Tool · Beginner</sub> | Detects hardcoded secrets in Git repositories and files. | 🟢 ★ 31k<br><sub>Oct 2026</sub> |
+| [**OSV-Scanner**](https://github.com/google/osv-scanner)<br><sub>Tool · Beginner</sub> | Finds known vulnerabilities in your dependencies using the OSV database. | 🟢 ★ 11k<br><sub>Oct 2026</sub> |
+| [**Prowler**](https://github.com/prowler-cloud/prowler)<br><sub>Tool · Intermediate</sub> | Security posture checks for AWS, Azure, GCP and Kubernetes against common benchmarks. | 🟢 ★ 15k<br><sub>Oct 2026</sub> |
+| [**Semgrep**](https://semgrep.dev/)<br><sub>Tool · Beginner</sub> | Fast static analysis with readable rules for finding bugs and enforcing secure code. | 🟢 ★ 17k<br><sub>Oct 2026</sub> |
+| [**Static Analysis Tools**](https://analysis-tools.dev/)<br><sub>List · Beginner</sub> | Large directory of static analysis tools and linters for every language. | 🟢 ★ 15k<br><sub>Oct 2026</sub> |
+| [**Trivy**](https://trivy.dev/)<br><sub>Tool · Beginner</sub> | Scans containers, filesystems, Git repos and IaC for vulnerabilities, misconfigurations and secrets. | 🟢 ★ 39k<br><sub>Oct 2026</sub> |
+| [**TruffleHog**](https://github.com/trufflesecurity/trufflehog)<br><sub>Tool · Beginner</sub> | Finds and verifies leaked credentials across Git, cloud storage and chat tools. | 🟢 ★ 29k<br><sub>Oct 2026</sub> |
 
 <div align="right"><a href="#contents">↑ back to contents</a></div>
 
@@ -232,12 +232,12 @@ Cloud posture, container and code scanning, secrets detection, CI/CD security.
 
 Android and iOS testing guides and tools.
 
-| Resource | Type | Level | What it is | Health |
-| :-- | :-- | :-- | :-- | :-- |
-| [**Android Security Awesome**](https://github.com/ashishb/android-security-awesome) | List | Intermediate | Android security tools, academic research and learning material. | 🟢 ★ 9.8k · Oct 2026 |
-| [**macOS and iOS Security Awesome**](https://github.com/ashishb/osx-and-ios-security-awesome) | List | Intermediate | macOS and iOS security tools and resources. | 🟢 ★ 1.8k · Oct 2026 |
-| [**MobSF**](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | Tool | Beginner | Automated static and dynamic analysis for Android and iOS apps. | 🟢 ★ 22k · Nov 2026 |
-| [**OWASP MASTG**](https://mas.owasp.org/MASTG/) | Reference | Intermediate | Mobile Application Security Testing Guide: the standard manual for testing Android and iOS apps. | 🟢 ★ 13k · Nov 2026 |
+| Resource | What it is | Health |
+| :-- | :-- | :-- |
+| [**Android Security Awesome**](https://github.com/ashishb/android-security-awesome)<br><sub>List · Intermediate</sub> | Android security tools, academic research and learning material. | 🟢 ★ 9.8k<br><sub>Oct 2026</sub> |
+| [**macOS and iOS Security Awesome**](https://github.com/ashishb/osx-and-ios-security-awesome)<br><sub>List · Intermediate</sub> | macOS and iOS security tools and resources. | 🟢 ★ 1.8k<br><sub>Oct 2026</sub> |
+| [**MobSF**](https://github.com/MobSF/Mobile-Security-Framework-MobSF)<br><sub>Tool · Beginner</sub> | Automated static and dynamic analysis for Android and iOS apps. | 🟢 ★ 22k<br><sub>Nov 2026</sub> |
+| [**OWASP MASTG**](https://mas.owasp.org/MASTG/)<br><sub>Reference · Intermediate</sub> | Mobile Application Security Testing Guide: the standard manual for testing Android and iOS apps. | 🟢 ★ 13k<br><sub>Nov 2026</sub> |
 
 <div align="right"><a href="#contents">↑ back to contents</a></div>
 
@@ -245,12 +245,12 @@ Android and iOS testing guides and tools.
 
 Learning cryptography and auditing password strength.
 
-| Resource | Type | Level | What it is | Health |
-| :-- | :-- | :-- | :-- | :-- |
-| [**Awesome Cryptography**](https://github.com/sobolevn/awesome-cryptography) | List | Intermediate | Cryptography libraries, books, courses and tools. | 🟢 ★ 7.2k · Jul 2026 |
-| [**Awesome Password Cracking**](https://github.com/n0kovo/awesome-password-cracking) | List | Intermediate | Tools, research, wordlists and papers on password cracking. | 🟢 ★ 1.1k · Sep 2026 |
-| [**hashcat**](https://hashcat.net/hashcat/) | Tool | Intermediate | GPU-accelerated password recovery for auditing hash strength. | 🟢 ★ 27k · Nov 2026 |
-| [**John the Ripper**](https://www.openwall.com/john/) | Tool | Beginner | Long-standing password security auditing and recovery tool. | 🟢 ★ 14k · Oct 2026 |
+| Resource | What it is | Health |
+| :-- | :-- | :-- |
+| [**Awesome Cryptography**](https://github.com/sobolevn/awesome-cryptography)<br><sub>List · Intermediate</sub> | Cryptography libraries, books, courses and tools. | 🟢 ★ 7.2k<br><sub>Jul 2026</sub> |
+| [**Awesome Password Cracking**](https://github.com/n0kovo/awesome-password-cracking)<br><sub>List · Intermediate</sub> | Tools, research, wordlists and papers on password cracking. | 🟢 ★ 1.1k<br><sub>Sep 2026</sub> |
+| [**hashcat**](https://hashcat.net/hashcat/)<br><sub>Tool · Intermediate</sub> | GPU-accelerated password recovery for auditing hash strength. | 🟢 ★ 27k<br><sub>Nov 2026</sub> |
+| [**John the Ripper**](https://www.openwall.com/john/)<br><sub>Tool · Beginner</sub> | Long-standing password security auditing and recovery tool. | 🟢 ★ 14k<br><sub>Oct 2026</sub> |
 
 <div align="right"><a href="#contents">↑ back to contents</a></div>
 
@@ -258,16 +258,16 @@ Learning cryptography and auditing password strength.
 
 Cellular, vehicles, industrial control systems, drones, RTC and physical security.
 
-| Resource | Type | Level | What it is | Health |
-| :-- | :-- | :-- | :-- | :-- |
-| [**Awesome Cellular Hacking**](https://github.com/W00t3k/Awesome-Cellular-Hacking) | List | Advanced | Research on 2G to 5G cellular network security. | 🟢 ★ 4.1k · Aug 2026 |
-| [**Awesome Drone Hacking**](https://github.com/nicholasaleks/Awesome-Drone-Hacking) | List | Advanced | Drone and UAV security research and tools. | 🟢 ★ 205 · Sep 2026 |
-| [**Awesome ICS Security**](https://github.com/hslatman/awesome-industrial-control-system-security) | List | Advanced | Industrial control system (SCADA/ICS) security resources. | 🔵 ★ 2k · Oct 2025 |
-| [**Awesome IoT and Hardware Security**](https://github.com/kayranfatih/awesome-iot-and-hardware-security) | List | Intermediate | IoT and hardware security tools, learning resources and research. | 🟢 ★ 71 · Oct 2026 |
-| [**Awesome Mainframe Hacking**](https://github.com/samanL33T/Awesome-Mainframe-Hacking) | List | Advanced | Resources on mainframe (z/OS) security testing. | 🟡 ★ 498 · Jan 2025 |
-| [**Awesome RTC Hacking**](https://github.com/EnableSecurity/awesome-rtc-hacking) | List | Advanced | Security of VoIP, WebRTC and real-time communications. | 🟢 ★ 558 · Jun 2026 |
-| [**Awesome Vehicle Security**](https://github.com/jaredthecoder/awesome-vehicle-security) | List | Advanced | Automotive security resources: CAN bus, tools, talks and research. | 🟢 ★ 4.7k · May 2026 |
-| [**Red Team Physical Tools**](https://github.com/DavidProbinsky/RedTeam-Physical-Tools) | List | Advanced | Tools for physical security assessments: locks, RFID and covert entry. | 🔵 ★ 622 · Feb 2026 |
+| Resource | What it is | Health |
+| :-- | :-- | :-- |
+| [**Awesome Cellular Hacking**](https://github.com/W00t3k/Awesome-Cellular-Hacking)<br><sub>List · Advanced</sub> | Research on 2G to 5G cellular network security. | 🟢 ★ 4.1k<br><sub>Aug 2026</sub> |
+| [**Awesome Drone Hacking**](https://github.com/nicholasaleks/Awesome-Drone-Hacking)<br><sub>List · Advanced</sub> | Drone and UAV security research and tools. | 🟢 ★ 205<br><sub>Sep 2026</sub> |
+| [**Awesome ICS Security**](https://github.com/hslatman/awesome-industrial-control-system-security)<br><sub>List · Advanced</sub> | Industrial control system (SCADA/ICS) security resources. | 🔵 ★ 2k<br><sub>Oct 2025</sub> |
+| [**Awesome IoT and Hardware Security**](https://github.com/kayranfatih/awesome-iot-and-hardware-security)<br><sub>List · Intermediate</sub> | IoT and hardware security tools, learning resources and research. | 🟢 ★ 71<br><sub>Oct 2026</sub> |
+| [**Awesome Mainframe Hacking**](https://github.com/samanL33T/Awesome-Mainframe-Hacking)<br><sub>List · Advanced</sub> | Resources on mainframe (z/OS) security testing. | 🟡 ★ 498<br><sub>Jan 2025</sub> |
+| [**Awesome RTC Hacking**](https://github.com/EnableSecurity/awesome-rtc-hacking)<br><sub>List · Advanced</sub> | Security of VoIP, WebRTC and real-time communications. | 🟢 ★ 558<br><sub>Jun 2026</sub> |
+| [**Awesome Vehicle Security**](https://github.com/jaredthecoder/awesome-vehicle-security)<br><sub>List · Advanced</sub> | Automotive security resources: CAN bus, tools, talks and research. | 🟢 ★ 4.7k<br><sub>May 2026</sub> |
+| [**Red Team Physical Tools**](https://github.com/DavidProbinsky/RedTeam-Physical-Tools)<br><sub>List · Advanced</sub> | Tools for physical security assessments: locks, RFID and covert entry. | 🔵 ★ 622<br><sub>Feb 2026</sub> |
 
 <div align="right"><a href="#contents">↑ back to contents</a></div>
 
@@ -275,12 +275,12 @@ Cellular, vehicles, industrial control systems, drones, RTC and physical securit
 
 Security of machine learning systems and LLM applications.
 
-| Resource | Type | Level | What it is | Health |
-| :-- | :-- | :-- | :-- | :-- |
-| [**Awesome AI Security**](https://github.com/DeepSpaceHarbor/Awesome-AI-Security) | List | Intermediate | Research, tools and resources on the security of AI systems. | 🔵 ★ 1.7k · Mar 2026 |
-| [**Awesome Prompt Injection**](https://github.com/Joe-B-Security/awesome-prompt-injection) | List | Beginner | Learning resources and tools on prompt injection in LLM applications. | 🟢 ★ 709 · Sep 2026 |
-| [**Awesome RL for Cybersecurity**](https://github.com/Kim-Hammar/awesome-rl-for-cybersecurity) | List | Advanced | Research on reinforcement learning applied to cyber attack and defense. | 🟢 ★ 1.1k · Jul 2026 |
-| [**garak**](https://github.com/NVIDIA/garak) | Tool | Intermediate | LLM vulnerability scanner that probes models for jailbreaks, prompt injection, leakage and more. | 🟢 ★ 9.8k · Oct 2026 |
+| Resource | What it is | Health |
+| :-- | :-- | :-- |
+| [**Awesome AI Security**](https://github.com/DeepSpaceHarbor/Awesome-AI-Security)<br><sub>List · Intermediate</sub> | Research, tools and resources on the security of AI systems. | 🔵 ★ 1.7k<br><sub>Mar 2026</sub> |
+| [**Awesome Prompt Injection**](https://github.com/Joe-B-Security/awesome-prompt-injection)<br><sub>List · Beginner</sub> | Learning resources and tools on prompt injection in LLM applications. | 🟢 ★ 709<br><sub>Sep 2026</sub> |
+| [**Awesome RL for Cybersecurity**](https://github.com/Kim-Hammar/awesome-rl-for-cybersecurity)<br><sub>List · Advanced</sub> | Research on reinforcement learning applied to cyber attack and defense. | 🟢 ★ 1.1k<br><sub>Jul 2026</sub> |
+| [**garak**](https://github.com/NVIDIA/garak)<br><sub>Tool · Intermediate</sub> | LLM vulnerability scanner that probes models for jailbreaks, prompt injection, leakage and more. | 🟢 ★ 9.8k<br><sub>Oct 2026</sub> |
 
 <div align="right"><a href="#contents">↑ back to contents</a></div>
 
@@ -288,21 +288,21 @@ Security of machine learning systems and LLM applications.
 
 Broad knowledge bases, cheat sheets and other curated collections.
 
-| Resource | Type | Level | What it is | Health |
-| :-- | :-- | :-- | :-- | :-- |
-| [**Awesome Annual Security Reports**](https://github.com/jacobdjwilson/awesome-annual-security-reports) | List | Beginner | Annual industry security reports in one place. | 🟢 ★ 1.2k · Oct 2026 |
-| [**Awesome Hacking**](https://github.com/Hack-with-Github/Awesome-Hacking) | List | Beginner | The long-running index of awesome lists for hackers and pentesters, started in 2016. | 🟢 ★ 124k · Oct 2026 |
-| [**Awesome Infosec**](https://github.com/onlurking/awesome-infosec) | List | Beginner | Courses, labs, CTFs and books for learning information security. | 🟢 ★ 5.8k · Aug 2026 |
-| [**Awesome Security**](https://github.com/sbilly/awesome-security) | List | Beginner | Software, libraries, documents and books about security. | 🔵 ★ 15k · Jan 2026 |
-| [**Awesome Security Talks**](https://github.com/PaulSec/awesome-sec-talks) | List | Beginner | Recorded security conference talks. | 🔵 ★ 4.2k · Feb 2026 |
-| [**Awesome Tor**](https://github.com/polycarbohydrate/awesome-tor) | List | Beginner | Resources about the Tor network and anonymous communication. | 🟢 ★ 137 · Oct 2026 |
-| [**Awesome Web3 Security**](https://github.com/Anugrahsr/Awesome-web3-Security) | List | Intermediate | Smart contract and blockchain security resources. | 🔵 ★ 1.6k · Mar 2026 |
-| [**CyberChef**](https://gchq.github.io/CyberChef/) | Tool | Beginner | The 'Cyber Swiss Army Knife': encode, decode, decrypt and analyze data in your browser. | 🟢 ★ 36k · Oct 2026 |
-| [**CyberSources**](https://github.com/bst04/CyberSources) | List | Beginner | Collection of cybersecurity resources, tools and references. | 🟢 ★ 2.5k · Oct 2026 |
-| [**h4cker**](https://github.com/The-Art-of-Hacking/h4cker) | Reference | Beginner | Thousands of resources on ethical hacking, bug bounties, DFIR, AI security and more, maintained by Omar Santos. | 🟢 ★ 30k · Oct 2026 |
-| [**HackTricks**](https://book.hacktricks.wiki/) | Reference | Intermediate | Large wiki of pentesting techniques and checklists across platforms and services. | 🟢 ★ 13k · Nov 2026 |
-| [**Infosec Reference**](https://github.com/rmusser01/Infosec_Reference) | Reference | Intermediate | Extensive, categorized information security reference. | 🔵 ★ 6k · Oct 2025 |
-| [**OWASP Cheat Sheet Series**](https://cheatsheetseries.owasp.org/) | Reference | Beginner | Concise, practical guidance on specific application security topics for developers. | 🟢 ★ 34k · Nov 2026 |
+| Resource | What it is | Health |
+| :-- | :-- | :-- |
+| [**Awesome Annual Security Reports**](https://github.com/jacobdjwilson/awesome-annual-security-reports)<br><sub>List · Beginner</sub> | Annual industry security reports in one place. | 🟢 ★ 1.2k<br><sub>Oct 2026</sub> |
+| [**Awesome Hacking**](https://github.com/Hack-with-Github/Awesome-Hacking)<br><sub>List · Beginner</sub> | The long-running index of awesome lists for hackers and pentesters, started in 2016. | 🟢 ★ 124k<br><sub>Oct 2026</sub> |
+| [**Awesome Infosec**](https://github.com/onlurking/awesome-infosec)<br><sub>List · Beginner</sub> | Courses, labs, CTFs and books for learning information security. | 🟢 ★ 5.8k<br><sub>Aug 2026</sub> |
+| [**Awesome Security**](https://github.com/sbilly/awesome-security)<br><sub>List · Beginner</sub> | Software, libraries, documents and books about security. | 🔵 ★ 15k<br><sub>Jan 2026</sub> |
+| [**Awesome Security Talks**](https://github.com/PaulSec/awesome-sec-talks)<br><sub>List · Beginner</sub> | Recorded security conference talks. | 🔵 ★ 4.2k<br><sub>Feb 2026</sub> |
+| [**Awesome Tor**](https://github.com/polycarbohydrate/awesome-tor)<br><sub>List · Beginner</sub> | Resources about the Tor network and anonymous communication. | 🟢 ★ 137<br><sub>Oct 2026</sub> |
+| [**Awesome Web3 Security**](https://github.com/Anugrahsr/Awesome-web3-Security)<br><sub>List · Intermediate</sub> | Smart contract and blockchain security resources. | 🔵 ★ 1.6k<br><sub>Mar 2026</sub> |
+| [**CyberChef**](https://gchq.github.io/CyberChef/)<br><sub>Tool · Beginner</sub> | The 'Cyber Swiss Army Knife': encode, decode, decrypt and analyze data in your browser. | 🟢 ★ 36k<br><sub>Oct 2026</sub> |
+| [**CyberSources**](https://github.com/bst04/CyberSources)<br><sub>List · Beginner</sub> | Collection of cybersecurity resources, tools and references. | 🟢 ★ 2.5k<br><sub>Oct 2026</sub> |
+| [**h4cker**](https://github.com/The-Art-of-Hacking/h4cker)<br><sub>Reference · Beginner</sub> | Thousands of resources on ethical hacking, bug bounties, DFIR, AI security and more, maintained by Omar Santos. | 🟢 ★ 30k<br><sub>Oct 2026</sub> |
+| [**HackTricks**](https://book.hacktricks.wiki/)<br><sub>Reference · Intermediate</sub> | Large wiki of pentesting techniques and checklists across platforms and services. | 🟢 ★ 13k<br><sub>Nov 2026</sub> |
+| [**Infosec Reference**](https://github.com/rmusser01/Infosec_Reference)<br><sub>Reference · Intermediate</sub> | Extensive, categorized information security reference. | 🔵 ★ 6k<br><sub>Oct 2025</sub> |
+| [**OWASP Cheat Sheet Series**](https://cheatsheetseries.owasp.org/)<br><sub>Reference · Beginner</sub> | Concise, practical guidance on specific application security topics for developers. | 🟢 ★ 34k<br><sub>Nov 2026</sub> |
 
 <div align="right"><a href="#contents">↑ back to contents</a></div>
 
