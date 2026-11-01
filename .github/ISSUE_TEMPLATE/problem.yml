@@ -1,0 +1,17 @@
+name: Report a problem with an entry
+description: Broken link, wrong description, project moved or no longer maintained.
+labels: [fix]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Which entry?
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong?
+      description: Include links to evidence if you have them.
+    validations:
+      required: true

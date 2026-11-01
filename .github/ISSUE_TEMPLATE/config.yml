@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Browse all resources
+    url: https://ethos6.github.io/Hacking/
+    about: Search and filter the full map.
+  - name: Report a malicious or compromised link privately
+    url: https://github.com/Ethos6/Hacking/security/advisories/new
+    about: Use this if a listed project now distributes malware or has been taken over.

@@ -1,0 +1,35 @@
+name: Suggest a resource
+description: Suggest a course, lab, tool, reference or curated list.
+labels: [suggestion]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name and link
+      placeholder: Name - https://
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options: [Course, Platform, Lab, Tool, Reference, List]
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it belongs here
+      description: What it does, who it helps and how it differs from what's already listed.
+    validations:
+      required: true
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Checklist
+      options:
+        - label: It's useful for learning, defense or authorized testing.
+          required: true
+        - label: If it's on GitHub, it has had commits in the last 2 years and isn't archived.
+          required: true
+        - label: I'm not the author, or I've disclosed that above.
