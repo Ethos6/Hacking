@@ -28,13 +28,14 @@ function healthCell(r) {
   const h = health.repos[r.repo];
   const s = healthStatus(h);
   if (!h || !s) return '—';
-  return `${STATUS[s].icon} ★ ${compact(h.stars)} · ${month(h.last_commit)}`;
+  return `${STATUS[s].icon} ★ ${compact(h.stars)}<br><sub>${month(h.last_commit)}</sub>`;
 }
 
 function row(r) {
   const extras = [];
   if (r.note) extras.push(`<br><sub>${md(r.note)}</sub>`);
-  return `| [**${md(r.name)}**](${r.url}) | ${TYPE[r.type]} | ${r.level ? LEVEL[r.level] : 'All'} | ${md(r.description)}${extras.join('')} | ${healthCell(r)} |`;
+  const meta = [TYPE[r.type], r.level ? LEVEL[r.level] : 'All levels'].join(' · ');
+  return `| [**${md(r.name)}**](${r.url})<br><sub>${meta}</sub> | ${md(r.description)}${extras.join('')} | ${healthCell(r)} |`;
 }
 
 const toc = categories.map((c) => `[${c.category}](#${slug(c.category)})`).join(' · ');
@@ -44,8 +45,8 @@ const sections = categories.map((c) =>
     '',
     `${c.description}`,
     '',
-    '| Resource | Type | Level | What it is | Health |',
-    '| :-- | :-- | :-- | :-- | :-- |',
+    '| Resource | What it is | Health |',
+    '| :-- | :-- | :-- |',
     ...c.resources.map((r) => row({ ...r, category: c.id })),
     '',
     '<div align="right"><a href="#contents">↑ back to contents</a></div>',
